@@ -1,0 +1,73 @@
+/* Gyaan Saathi static: system fonts only, no downloads, light first paint. */
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: #f4efec;
+  color: #2b2320;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'Noto Sans Devanagari', sans-serif;
+  line-height: 1.55;
+}
+a { color: #0b5fff; }
+
+.page { max-width: 720px; margin: 0 auto; padding: 20px 16px 32px; }
+
+.head .title { font-size: 28px; margin: 8px 0 4px; }
+.fact { color: #3d7a5e; font-weight: 600; margin: 0 0 8px; }
+.intro { color: #4a403b; margin: 0 0 4px; }
+
+.gs-contact { text-align: left; margin: 18px 0 6px; padding: 14px 16px; border: 1px solid #ddd2ca; border-radius: 12px; background: #fff; }
+.gs-contact-name { margin: 0 0 8px; font-size: 20px; font-weight: 700; }
+.gs-contact-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.gs-contact-list a { word-break: break-all; }
+.gs-contact-label { color: #6b5f58; font-weight: 600; }
+
+.hero { margin: 18px 0; }
+.hero img { width: 100%; height: auto; border-radius: 12px; display: block; }
+.hero figcaption { margin-top: 4px; }
+
+.group-label { font-size: 20px; margin: 28px 0 10px; }
+
+.lib-list { display: flex; flex-direction: column; gap: 20px; }
+.lib-item { border-top: 1px solid #ddd2ca; padding-top: 14px; }
+.lib-item-head { display: flex; gap: 10px; align-items: baseline; }
+.lib-num { color: #6b5f58; min-width: 18px; }
+.lib-title { font-weight: 600; }
+.lib-detail { color: #4a403b; margin: 4px 0 0; }
+.lib-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 10px; gap: 12px; flex-wrap: wrap; }
+.lib-meta { color: #6b5f58; font-size: 12px; margin: 4px 0 0; }
+.lib-actions { display: flex; gap: 8px; }
+.lib-error { color: #b3261e; font-size: 13px; margin: 8px 0 0; }
+
+.btn {
+  display: inline-block; min-height: 44px; padding: 10px 18px;
+  font-size: 15px; font-weight: 600; text-decoration: none;
+  border: 1px solid #2b2320; border-radius: 10px;
+  background: #2b2320; color: #fff; cursor: pointer;
+}
+.btn-secondary { background: #fff; color: #2b2320; border-color: #ddd2ca; }
+
+.callout { margin-top: 16px; padding: 12px 14px; border-radius: 10px; font-size: 14px; }
+.callout p { margin: 4px 0 0; }
+.callout-warn { background: #fdf3e4; border: 1px solid #ecd9b5; }
+.callout-note { background: #eef3f6; border: 1px solid #d4e0e6; }
+
+.foot { margin-top: 32px; }
+.gs-credit { text-align: center; color: #6b5f58; font-size: 13px; margin: 18px 0 4px; }
+
+/* In-page reader: top-layer dialog stays on the visible screen. */
+.gs-dlg { padding: 0; border: none; max-width: none; max-height: none; width: 100%; height: 100%; background: #f4efec; }
+.gs-dlg::backdrop { background: #f4efec; }
+.gs-reader { display: flex; flex-direction: column; height: 100%; overflow: hidden; }
+.gs-bar { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-bottom: 1px solid #ddd2ca; }
+.gs-title { flex: 1; font-size: 13px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.gs-controls { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; padding: 8px 12px; border-bottom: 1px solid #ddd2ca; }
+.gs-btn { min-height: 44px; min-width: 44px; padding: 10px 14px; font-size: 15px; font-weight: 600; border: 1px solid #ddd2ca; border-radius: 10px; background: #fff; color: #2b2320; cursor: pointer; }
+.gs-btn:disabled { opacity: 0.4; cursor: default; }
+.gs-back { font-size: 16px; }
+.gs-page { font-size: 14px; color: #6b5f58; white-space: nowrap; }
+.gs-slider { padding: 6px 14px 2px; }
+.gs-slider input { width: 100%; height: 32px; }
+.gs-loading { text-align: center; color: #6b5f58; font-size: 14px; margin: 16px 0 0; }
+.gs-scroll { flex: 1; min-height: 0; overflow: auto; padding: 10px 4px 24px; }
+.gs-canvas { display: block; margin: 0 auto; max-width: none; box-shadow: 0 1px 4px rgba(0,0,0,0.18); background: #fff; }
+.gs-dl { text-align: center; padding: 14px; margin: 0; }
