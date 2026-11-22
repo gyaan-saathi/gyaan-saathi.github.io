@@ -4,6 +4,9 @@
   'use strict';
 
   var ITEMS = {
+    'list-selected': [
+      { n: 17, title: 'वेदान्तसार (सदानन्द): चयनित अंश', detail: 'डिजिटल क्रम के खण्ड 50–121: संस्कृत मूल पाठ, जी. ए. जैकब का अंग्रेज़ी अनुवाद और हिंदी व्याख्या। यह पूरा वेदान्तसार, पूरा पेपर 6 या पूरे पाठ्यक्रम के नोट्स नहीं हैं।', meta: '47 पेज • केवल चयनित खण्ड 50–121', file: 'vedantasara-chayanit-50-121.pdf' }
+    ],
     'list-jobs': [
       { n: 1, title: 'India ki sarkari bhartiyan, 22 नवंबर 2026', detail: '53 catalogue entries + UPPSC RO/ARO follow-up. हर entry में qualification, age, fees, official link और source-check की तारीख. बड़े अक्षरों वाली PDF.', meta: '93 पेज • 22 नवंबर 2026', file: 'sarkari-bhartiyan-22-nov-2026.pdf' }
     ],

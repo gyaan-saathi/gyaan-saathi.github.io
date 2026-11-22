@@ -100,3 +100,5 @@ body { background: #f6f1ea; }
 .gs-shortcuts a:hover,.gs-shortcuts a:focus-visible {background:#eae9fc;border-color:#4f46e5;}
 .gs-scope {font-size:14px;line-height:1.65;color:#514a45;margin:0 0 14px;}
 .group-label {scroll-margin-top:18px;}
+
+.gs-shortcuts .gs-new-shortcut {flex-basis:100%;background:#fff8e8;border-color:#d6b36a;color:#674200;}
