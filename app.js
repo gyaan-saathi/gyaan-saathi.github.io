@@ -96,6 +96,8 @@
     });
   });
 
+  document.querySelector('.head .fact').textContent = document.querySelectorAll('.lib-item').length + ' PDFs';
+
   // Lazy-load pdf.js on first tap
   var pdfjsLoading = null;
   function loadPdfJs() {
