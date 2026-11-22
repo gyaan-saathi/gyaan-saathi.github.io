@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>किरातार्जुनीयम् प्रथम सर्ग: यूनिकोड पाठ | Gyaan Saathi</title>
+<style>
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { display: flex; flex-direction: column; height: 100dvh; color: #2b2320; background: #f6f1ea; font: 16px/1.5 system-ui, sans-serif; }
+header { flex: none; padding: 10px 14px; border-bottom: 1px solid #ddd2ca; }
+nav { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+a { color: #3730a3; }
+nav a { display: inline-block; padding: 8px 12px; border: 1px solid #ddd2ca; border-radius: 8px; background: #fff; text-decoration: none; min-height: 44px; }
+header p { margin: 8px 0 0; font-size: 14px; }
+iframe { flex: 1; min-height: 0; width: 100%; border: 0; background: #fff; }
+</style>
+</head>
+<body>
+<header>
+<nav aria-label="पाठ के विकल्प"><a href="./#gs-resource-53">← पुस्तकालय</a><a href="ba3-group-a-kiratarjuniya1-unicode-v2-2023-24.html" download>मूल HTML डाउनलोड</a></nav>
+<p>यूनिकोड पाठ: शब्द चुनकर कॉपी करें। खोजने के लिए अपने ब्राउज़र का "पेज में खोजें" विकल्प इस्तेमाल करें। PDF में कॉपी/खोज की सीमाएँ हैं।</p>
+</header>
+<iframe id="unicode-text" src="ba3-group-a-kiratarjuniya1-unicode-v2-2023-24.html" title="किरातार्जुनीयम् प्रथम सर्ग का यूनिकोड पाठ"></iframe>
+<script>
+(function () {
+  var frame = document.getElementById('unicode-text');
+  frame.addEventListener('load', function () {
+    var doc = frame.contentDocument;
+    if (!doc) return;
+    var style = doc.createElement('style');
+    style.textContent = '*{box-sizing:border-box}html{overflow-wrap:anywhere}body{max-width:900px;margin:0 auto;padding:18px}.cover .box{max-width:100%}';
+    doc.head.appendChild(style);
+    Array.prototype.forEach.call(doc.querySelectorAll('a[href]'), function (a) { a.target = '_blank'; a.rel = 'noopener noreferrer'; });
+  });
+}());
+</script>
+</body>
+</html>
