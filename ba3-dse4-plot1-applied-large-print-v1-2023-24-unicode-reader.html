@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="hi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>बी.ए. तृतीय वर्ष, DSE4 पूरक: कथावस्तु की पहचान और योजना: यूनिकोड पाठ | Gyaan Saathi</title>
+<style>
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { display: flex; flex-direction: column; height: 100dvh; color: #2b2320; background: #f6f1ea; font: 16px/1.5 system-ui, sans-serif; }
+header { flex: none; padding: 10px 14px; border-bottom: 1px solid #ddd2ca; }
+nav { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+a { color: #3730a3; }
+nav a { display: inline-block; padding: 8px 12px; border: 1px solid #ddd2ca; border-radius: 8px; background: #fff; text-decoration: none; min-height: 44px; }
+header p { margin: 8px 0 0; font-size: 14px; }
+iframe { flex: 1; min-height: 0; width: 100%; border: 0; background: #fff; }
+</style>
+</head>
+<body>
+<header>
+<nav aria-label="पाठ के विकल्प"><a href="./#gs-resource-96">← पुस्तकालय</a><a download="" href="ba3-dse4-plot1-applied-large-print-v1-2023-24-source.html">मूल HTML डाउनलोड</a></nav>
+<p>यूनिकोड पाठ: शब्द चुनकर कॉपी करें। खोजने के लिए अपने ब्राउज़र का "पेज में खोजें" विकल्प इस्तेमाल करें। PDF में कॉपी/खोज की सीमाएँ हैं।</p>
+<p>इकाई2 का सीमित अनुप्रयोग, पूरा प्रथम प्रकाश/इकाई/सन्ध्यङ्ग या प्रश्नपत्र नहीं। भूमिका और स्रोत के अलग वर्गीकरण; आधुनिक उदाहरण और दस प्रश्नोत्तर मौलिक हैं, प्राचीन नाटक या PYQ नहीं। ऐतिहासिक बरकतउल्ला2023–24 आधार; वर्तमान स्वायत्त कॉलेज/DAVV-अंगीकरण अपुष्ट।</p>
+</header>
+<iframe id="unicode-text" src="ba3-dse4-plot1-applied-large-print-v1-2023-24-source.html" title="कथावस्तु का चयनित यूनिकोड अनुप्रयोग"></iframe>
+<script>
+(function () {
+  var frame = document.getElementById('unicode-text');
+  frame.addEventListener('load', function () {
+    var doc = frame.contentDocument;
+    if (!doc) return;
+    var style = doc.createElement('style');
+    style.textContent = "*{box-sizing:border-box}html{overflow-wrap:anywhere}body{max-width:900px;margin:0 auto;padding:18px;font-size:24px;line-height:1.8}.cover{padding-top:10px}.cover .box{max-width:100%;padding:16px;margin:12px 0}.cover h1{font-size:34px}.cover h2,.cover p.sub,h2.unit,h3,h4,.shloka,.note,.src,.toc,.footer-note,table{font-size:24px}.shloka{font-size:27px;padding:12px}.cover .note{max-width:100%!important;margin:20px 0!important}a{overflow-wrap:anywhere}.keep{break-inside:auto}table,tbody,tr,td{display:block;width:100%}.scan td:first-child,.scan td:nth-child(2){width:100%!important}th{display:none}tr{margin:12px 0;border:1px solid #b3b3b3}td{border:0;border-bottom:1px solid #ddd;padding:8px 12px}td[data-label]:before{content:attr(data-label) \": \";font-weight:bold}.table-record{padding:10px}.footer-note{overflow-wrap:anywhere}";
+    doc.head.appendChild(style);
+    Array.prototype.forEach.call(doc.querySelectorAll("table"),function(t){var labels=Array.prototype.map.call(t.querySelectorAll("tr:first-child th"),function(h){return h.textContent.trim()});Array.prototype.forEach.call(t.querySelectorAll("tr"),function(r){Array.prototype.forEach.call(r.querySelectorAll("td"),function(d,i){if(labels[i])d.setAttribute("data-label",labels[i])})})});
+    Array.prototype.forEach.call(doc.querySelectorAll('a[href]'), function (a) { a.target = '_blank'; a.rel = 'noopener noreferrer'; });
+  });
+}());
+</script>
+</body>
+</html>
