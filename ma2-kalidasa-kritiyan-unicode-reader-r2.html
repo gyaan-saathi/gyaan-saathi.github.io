@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>कालिदास की कृतियाँ, कथा-सार: यूनिकोड पाठ | Gyaan Saathi</title>
+<style>
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { display: flex; flex-direction: column; height: 100dvh; color: #2b2320; background: #f6f1ea; font: 16px/1.5 system-ui, sans-serif; }
+header { flex: none; padding: 10px 14px; border-bottom: 1px solid #ddd2ca; }
+nav { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+a { color: #3730a3; }
+nav a { display: inline-block; padding: 8px 12px; border: 1px solid #ddd2ca; border-radius: 8px; background: #fff; text-decoration: none; min-height: 44px; }
+header p { margin: 8px 0 0; font-size: 14px; }
+iframe { flex: 1; min-height: 0; width: 100%; border: 0; background: #fff; }
+</style>
+</head>
+<body>
+<header>
+<nav aria-label="पाठ के विकल्प"><a href="./#gs-resource-58">← पुस्तकालय</a><a href="ma2-paper8-kalidasa-kritiyan-source-r2.html" download>मूल HTML डाउनलोड</a></nav>
+<p>यूनिकोड पाठ: शब्द चुनकर कॉपी करें। खोजने के लिए अपने ब्राउज़र का "पेज में खोजें" विकल्प इस्तेमाल करें।</p>
+</header>
+<iframe id="unicode-text" src="ma2-paper8-kalidasa-kritiyan-source-r2.html" title="कालिदास की कृतियाँ, कथा-सार का यूनिकोड पाठ"></iframe>
+<script>
+(function () {
+  var frame = document.getElementById('unicode-text');
+  frame.addEventListener('load', function () {
+    var doc = frame.contentDocument;
+    if (!doc) return;
+    var style = doc.createElement('style');
+    style.textContent = '*{box-sizing:border-box}html{overflow-wrap:anywhere}body{max-width:900px;margin:0 auto;padding:18px}.cover .box{max-width:100%}@media(max-width:600px){table,thead,tbody,tr,td,th{display:block!important;width:100%!important;max-width:100%!important;white-space:normal!important}tr:has(th){display:none!important}tr{margin:0 0 16px;border:1px solid #ddd}td{border:0!important;border-bottom:1px solid #eee!important}td[data-label]::before{content:attr(data-label) " : ";font-weight:bold;color:#5d3928}}';
+    doc.head.appendChild(style);
+    Array.prototype.forEach.call(doc.querySelectorAll('table'), function (table) {
+      var labels = Array.prototype.map.call(table.querySelectorAll('tr:first-child th'), function (th) { return th.textContent.trim(); });
+      if (!labels.length) return;
+      Array.prototype.forEach.call(table.querySelectorAll('tr'), function (row) { Array.prototype.forEach.call(row.querySelectorAll('td'), function (td, i) { if (labels[i]) td.setAttribute('data-label', labels[i]); }); });
+    });
+    Array.prototype.forEach.call(doc.querySelectorAll('a[href]'), function (a) { a.target = '_blank'; a.rel = 'noopener noreferrer'; });
+  });
+}());
+</script>
+</body>
+</html>
