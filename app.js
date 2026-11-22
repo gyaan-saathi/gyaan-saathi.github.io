@@ -8,7 +8,7 @@
       { n: 1, title: 'India ki sarkari bhartiyan, 22 नवंबर 2026', detail: '53 catalogue entries + UPPSC RO/ARO follow-up. हर entry में qualification, age, fees, official link और source-check की तारीख. बड़े अक्षरों वाली PDF.', meta: '93 पेज • 22 नवंबर 2026', file: 'sarkari-bhartiyan-22-nov-2026.pdf' }
     ],
     'list-ma': [
-      { n: 2, title: 'पेपर 1: वैदिक वाङ्मय, निरुक्त एवं पाणिनीयशिक्षा', detail: 'DAVV के असली पुराने पेपरों का विश्लेषण, तैयारी की प्राथमिकता, अभ्यास-प्रश्न और पूरी अध्ययन-सामग्री।', meta: '66 पेज', file: 'ma1-ved-nirukta-shiksha.pdf' },
+      { n: 2, title: 'पेपर 1: वैदिक वाङ्मय, निरुक्त एवं पाणिनीयशिक्षा', detail: 'DAVV के पुराने पेपरों का विश्लेषण, तैयारी की प्राथमिकता, अभ्यास-प्रश्न और अध्ययन-नोट्स।', meta: '66 पेज', file: 'ma1-ved-nirukta-shiksha.pdf' },
       { n: 3, title: 'पेपर 2: दर्शनशास्त्र (तर्कभाषा, सांख्यकारिका, योगसूत्र)', detail: 'पुराने पेपर और कक्षा में बताई गई प्राथमिकता का मिलान, अभ्यास-प्रश्न, कारिका और सूत्र का मूल पाठ सहित।', meta: '114 पेज', file: 'ma2-darshan.pdf' },
       { n: 4, title: 'पेपर 3: व्याकरण एवं भाषा-विज्ञान', detail: 'पुराने पेपरों का विश्लेषण, प्राथमिकता-सूची, अभ्यास-प्रश्न और सूत्र-व्याख्या लिखने की विधि।', meta: '71 पेज', file: 'ma3-vyakaran-bhashavigyan.pdf' },
       { n: 5, title: 'पेपर 4: संस्कृत साहित्येतिहास (रामायण, महाभारत, राजतरंगिणी)', detail: 'पाठ्यक्रम-आधारित प्राथमिकता, अभ्यास-प्रश्न और प्रथम तरङ्ग के पद्य-समूहों का अध्ययन।', meta: '70 पेज', file: 'ma4-sahityetihas.pdf' },
@@ -16,10 +16,10 @@
       { n: 7, title: 'MA संस्कृत पाठ्यक्रम 2025-26 (official दस्तावेज़)', detail: 'विश्वविद्यालय के official पाठ्यक्रम की प्रति, हर पेज पर संस्था के हस्ताक्षर-मुहर सहित। दस्तावेज़ जैसा मिला वैसा रखा गया है; मौजूदा exam-नियमों के रूप में प्रमाणित नहीं, अपने college या विश्वविद्यालय से अवश्य मिलाएँ।', meta: '20 पेज • official दस्तावेज़', file: 'MA-Sanskrit-1st-Year-Syllabus-2025-26-Official.pdf' }
     ],
     'list-ba': [
-      { n: 8, title: 'पेपर 1: वेद ज्ञान परम्परा', detail: 'पाँचों इकाइयों की अध्ययन-सामग्री, मन्त्रों के सरल भावार्थ सहित।', meta: '76 पेज', file: 'ba1-ved-gyan-parampara.pdf' },
-      { n: 9, title: 'पेपर 2: व्याकरण', detail: 'पूरा पाठ्यक्रम क्रम से, हर टॉपिक के अभ्यास-प्रश्न और उत्तर-लेखन की विधि सहित। शुद्ध संस्करण।', meta: '93 पेज', file: 'ba2-vyakaran.pdf' },
-      { n: 10, title: 'पेपर 3: अर्ष काव्य परम्परा', detail: 'रामायण और महाभारत खण्डों की पूरी अध्ययन-सामग्री, पद्य-विश्लेषण सहित।', meta: '41 पेज', file: 'ba3-arsha-kavya-parampara.pdf' },
-      { n: 11, title: 'पाठ्यक्रम एवं पुराने प्रश्नपत्रों का विश्लेषण', detail: 'मध्य प्रदेश उच्च शिक्षा विभाग के अनुमोदित पाठ्यक्रम (2025-26) की पूरी जानकारी और पुराने पेपरों से तैयारी की दिशा।', meta: '7 पेज', file: 'ba-syllabus-pyq-analysis.pdf' },
+      { n: 8, title: 'पेपर 1: वेद ज्ञान परम्परा', detail: 'वेद ज्ञान परम्परा के अध्ययन-नोट्स, मन्त्रों के सरल भावार्थ सहित।', meta: '76 पेज', file: 'ba1-ved-gyan-parampara.pdf' },
+      { n: 9, title: 'पेपर 2: व्याकरण', detail: 'व्याकरण के टॉपिकवार अध्ययन-नोट्स, अभ्यास-प्रश्न और उत्तर-लेखन की विधि सहित।', meta: '93 पेज', file: 'ba2-vyakaran.pdf' },
+      { n: 10, title: 'पेपर 3: अर्ष काव्य परम्परा', detail: 'रामायण और महाभारत खण्डों के अध्ययन-नोट्स, पद्य-विश्लेषण सहित।', meta: '41 पेज', file: 'ba3-arsha-kavya-parampara.pdf' },
+      { n: 11, title: 'पाठ्यक्रम एवं पुराने प्रश्नपत्रों का विश्लेषण', detail: 'मध्य प्रदेश उच्च शिक्षा विभाग के अनुमोदित पाठ्यक्रम (2025-26) की जानकारी और पुराने पेपरों से तैयारी की दिशा।', meta: '7 पेज', file: 'ba-syllabus-pyq-analysis.pdf' },
       { n: 12, title: 'Core-1 वेद: ज्ञान परम्परा — official पाठ्यक्रम (scan)', detail: 'संस्था के हस्ताक्षर वाले official पाठ्यक्रम दस्तावेज़ का scan। जैसा मिला वैसा साझा किया गया है; certified current exam rules नहीं, अपने college से मिलाएँ।', meta: '3 पेज • scan', file: 'BA-Sanskrit-Core-1-Ved-Syllabus-Official-Scan.pdf' },
       { n: 13, title: 'Core-2 संस्कृत व्याकरण — official पाठ्यक्रम (scan)', detail: 'संस्था के हस्ताक्षर वाले official पाठ्यक्रम दस्तावेज़ का scan। जैसा मिला वैसा साझा किया गया है; certified current exam rules नहीं, अपने college से मिलाएँ।', meta: '3 पेज • scan', file: 'BA-Sanskrit-Core-2-Vyakaran-Syllabus-Official-Scan.pdf' },
       { n: 14, title: 'Core-3 आर्ष काव्य परम्परा — official पाठ्यक्रम (scan)', detail: 'संस्था के हस्ताक्षर वाले official पाठ्यक्रम दस्तावेज़ का scan। जैसा मिला वैसा साझा किया गया है; certified current exam rules नहीं, अपने college से मिलाएँ।', meta: '3 पेज • scan', file: 'BA-Sanskrit-Core-3-Arsh-Kavya-Syllabus-Official-Scan.pdf' }

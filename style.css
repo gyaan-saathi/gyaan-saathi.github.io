@@ -93,3 +93,10 @@ body { background: #f6f1ea; }
 .gs-credit { font-weight: 600; color: #4f46e5; }
 
 .gs-news-entry {margin:20px 0;padding:20px;border-radius:16px;background:#fff8e8;border:1px solid #e9cc8b;}.gs-news-entry h2{font-size:23px;line-height:1.4;margin:8px 0}.gs-news-entry p{margin:8px 0 16px}.gs-news-entry .lib-meta{font-size:12px;font-weight:700;color:#724900}
+
+/* Direct subject navigation, with no change to the existing PDF reader. */
+.gs-shortcuts {display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 12px;}
+.gs-shortcuts a {display:flex;align-items:center;justify-content:center;flex:1 1 140px;min-height:46px;padding:10px 12px;background:#fff;border:1px solid #c7c7e0;border-radius:10px;text-decoration:none;color:#273582;font-size:14px;font-weight:650;text-align:center;}
+.gs-shortcuts a:hover,.gs-shortcuts a:focus-visible {background:#eae9fc;border-color:#4f46e5;}
+.gs-scope {font-size:14px;line-height:1.65;color:#514a45;margin:0 0 14px;}
+.group-label {scroll-margin-top:18px;}
