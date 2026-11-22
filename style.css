@@ -102,3 +102,7 @@ body { background: #f6f1ea; }
 .group-label {scroll-margin-top:18px;}
 
 .gs-shortcuts .gs-new-shortcut {flex-basis:100%;background:#fff8e8;border-color:#d6b36a;color:#674200;}
+
+/* Temporary study warning, shown only on the affected resource. */
+.lib-warning { color: #7c2d12; background: #fff7ed; border: 1px solid #fb923c; border-left: 4px solid #c2410c; border-radius: 8px; padding: 10px 12px; margin: 10px 0; font-size: 15px; line-height: 1.55; }
+.gs-reader > .lib-warning { flex-shrink: 0; margin: 8px 12px 0; font-size: 14px; }
