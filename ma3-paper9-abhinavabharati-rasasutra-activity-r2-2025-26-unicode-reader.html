@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>रससूत्र-विमर्श और नवरस-प्रस्तुति: यूनिकोड पाठ | Gyaan Saathi</title>
+<style>
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { display: flex; flex-direction: column; height: 100dvh; color: #2b2320; background: #f6f1ea; font: 16px/1.5 system-ui, sans-serif; }
+header { flex: none; padding: 10px 14px; border-bottom: 1px solid #ddd2ca; }
+nav { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+a { color: #3730a3; }
+nav a { display: inline-block; padding: 8px 12px; border: 1px solid #ddd2ca; border-radius: 8px; background: #fff; text-decoration: none; min-height: 44px; }
+header p { margin: 8px 0 0; font-size: 14px; }
+iframe { flex: 1; min-height: 0; width: 100%; border: 0; background: #fff; }
+</style>
+</head>
+<body>
+<header>
+<nav aria-label="पाठ के विकल्प"><a href="./#gs-resource-71">← पुस्तकालय</a><a href="ma3-paper9-abhinavabharati-rasasutra-activity-r2-2025-26-source.html" download>मूल HTML डाउनलोड</a><a href="ma3-paper9-abhinavabharati-rasasutra-activity-r2-2025-26-editable.md" download>मूल Markdown डाउनलोड</a></nav>
+<p>यूनिकोड पाठ: शब्द चुनकर कॉपी करें। खोजने के लिए अपने ब्राउज़र का "पेज में खोजें" विकल्प इस्तेमाल करें।</p>
+<p>पाठाधार: अभिनवगुप्त की अभिनवभारती, SARIT / Andrew Ollett। आठ चयनित अंश और नया हिन्दी विवेचन/अभ्यास: <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a>। पूरी टीका का अनुवाद नहीं; वास्तविक छात्र-प्रस्तुति शेष रहती है। MP2025–26 आधार; कॉलेज-अंगीकरण अपुष्ट।</p>
+</header>
+<iframe id="unicode-text" src="ma3-paper9-abhinavabharati-rasasutra-activity-r2-2025-26-source.html" title="रससूत्र-विमर्श और नवरस-प्रस्तुति का यूनिकोड पाठ"></iframe>
+<script>
+(function () {
+  var frame = document.getElementById('unicode-text');
+  frame.addEventListener('load', function () {
+    var doc = frame.contentDocument;
+    if (!doc) return;
+    var style = doc.createElement('style');
+    style.textContent = "*{box-sizing:border-box}html{overflow-wrap:anywhere}body{max-width:950px;margin:0 auto;padding:18px;background:white;font-family:\"Noto Sans Devanagari\",system-ui,sans-serif;font-size:24px;line-height:1.7}.page{width:100%;max-width:100%;height:auto;min-height:0;overflow:visible;padding:12px 0 24px;margin:0 0 24px;break-after:auto}.running{font-size:13px;margin-bottom:20px;padding-bottom:8px}.footer{position:static;left:auto;right:auto;bottom:auto;flex-wrap:wrap;gap:8px;font-size:12px;margin-top:22px;padding-top:8px}.cover h1{font-size:38px;margin-top:18px;padding-top:16px}.cover h2{font-size:29px}.cover h3{font-size:25px}.cover p,.sources .body{font-size:23px}h1,.sources h1{font-size:32px;line-height:1.5}h2,h3{font-size:27px}.unit h2{font-size:22px}.sanskrit{font-family:\"Noto Serif Devanagari\",serif;font-size:27px;line-height:1.85;padding-left:12px}.meaning{font-size:24px;line-height:1.75}.meaning b{font-size:20px}.unit-note{font-size:18px}a,.url,.url a{font-size:16px;line-height:1.65;overflow-wrap:anywhere}.unit{margin-bottom:24px}ul,ol{padding-left:28px}blockquote,blockquote p{font-family:\"Noto Serif Devanagari\",serif;font-size:26px;line-height:1.8}blockquote{padding:12px;margin:16px 0}";
+    doc.head.appendChild(style);
+    Array.prototype.forEach.call(doc.querySelectorAll('table'), function (table) {
+      var labels = Array.prototype.map.call(table.querySelectorAll('tr:first-child th'), function (th) { return th.textContent.trim(); });
+      if (!labels.length) return;
+      Array.prototype.forEach.call(table.querySelectorAll('tr'), function (row) { Array.prototype.forEach.call(row.querySelectorAll('td'), function (td, i) { if (labels[i]) td.setAttribute('data-label', labels[i]); }); });
+    });
+    Array.prototype.forEach.call(doc.querySelectorAll('a[href]'), function (a) { a.target = '_blank'; a.rel = 'noopener noreferrer'; });
+  });
+}());
+</script>
+</body>
+</html>
