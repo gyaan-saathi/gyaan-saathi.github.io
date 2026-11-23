@@ -109,3 +109,6 @@ body { background: #f6f1ea; }
 
 /* Optional accurate-copy text companion is only shown for its own PDF. */
 #r-text-link[hidden] { display: none !important; }
+
+/* Equal entry points, the existing library and reader stay intact. */
+.page{max-width:1120px}.gs-portals{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:24px 0 28px}.gs-portal{display:flex;flex-direction:column;padding:22px 20px;background:#fff;border:1px solid #d8d3e4;border-top:5px solid #4f46e5;border-radius:16px;box-shadow:0 4px 14px #27215a0a}.gs-kicker{font-weight:750;font-size:15px;color:#4338a2;margin:0 0 12px}.gs-portal h2{font-size:25px;line-height:1.35;margin:0 0 12px}.gs-portal p{margin-top:0}.gs-portal .gs-portal-note{font-size:14px;color:#6b5f58;margin-bottom:22px}.gs-portal .btn{margin-top:auto;text-align:center}.head .title{font-size:34px}.head .fact{font-size:21px}.gs-shortcuts{scroll-margin-top:14px}h2[id]{scroll-margin-top:18px}@media(max-width:700px){.gs-portals{grid-template-columns:1fr;gap:14px;margin:20px 0}.gs-portal{min-height:285px}.gs-portal h2{font-size:25px}.page{max-width:720px}}
