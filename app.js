@@ -379,6 +379,50 @@
 
   document.querySelector('.gs-library-count').textContent = document.querySelectorAll('.lib-item').length + ' PDFs';
 
+  // Searchable dashboard. The original catalogue and PDF reader remain the source of truth.
+  var courses = {ba1:'बी.ए. प्रथम वर्ष',ba2:'बी.ए. द्वितीय वर्ष',ba3:'बी.ए. तृतीय वर्ष',ma1:'एम.ए. सेमेस्टर 1',ma2:'एम.ए. सेमेस्टर 2',ma3:'एम.ए. सेमेस्टर 3',ma4:'एम.ए. सेमेस्टर 4',maps:'संयुक्त / सामान्य अध्ययन',books:'पुस्तक-सारांश',jobs:'पुराना भर्ती-संग्रह'};
+  var topicRules = [
+    ['shukanasa|shukanasopadesha','शुकनासोपदेश'],['raghuvamsa','रघुवंश'],['shakuntala','अभिज्ञानशाकुन्तल'],['meghaduta','मेघदूत'],['nalacampu|campu','नलचम्पू'],['kavyaprakasha','काव्यप्रकाश'],['kavyamimamsa','काव्यमीमांसा'],['dhvanyaloka|dhvani','ध्वन्यालोक / ध्वनि'],['vakrokti','वक्रोक्तिजीवित'],['uttararamac','उत्तररामचरित'],['dasarupaka|rupaka|natya|abhinaya|patra|stage|rasayojana|sandhi5|nayika','नाट्यशास्त्र / रूपक'],['vedantasara','वेदान्तसार'],['manu[127]|manusm','मनुस्मृति'],['yajnavalkya','याज्ञवल्क्यस्मृति'],['arthasangraha','अर्थसंग्रह'],['arthasastra|arthashastra','अर्थशास्त्र'],['kiratarjuniya','किरातार्जुनीय'],['gita2|gitadarshana','गीता / गीतादर्शन'],['isha18|katha18','उपनिषद्'],['samasa|karaka|vyakaran|vachya|krt10|taddhita|tap1|dhak1|ngin1|sanskrit-lekhan','व्याकरण / संस्कृत-लेखन'],['bhasha|dialect|discourse','भाषाविज्ञान'],['chandas|chhanda|srag1','छन्द'],['alankara|bhamaha|sahityashastriya|shakti|lakshana|rasa4|guna5|kavyabheda|vidha4|giti1','काव्यशास्त्र / अलंकार'],['mudrarakshasa','मुद्राराक्षस'],['mrcchakatika','मृच्छकटिक'],['darshan|darshana|yoga|sankhya','दर्शन'],['curriculum|syllabus|study-index','पाठ्यक्रम / अध्ययन-पथ']
+  ];
+  var records=[];
+  Object.keys(ITEMS).forEach(function(group){ITEMS[group].forEach(function(it){
+    var course=group==='list-ma'?'ma1':group==='list-ba'?'ba1':group==='list-ebook'?'books':group==='list-jobs'?'jobs':((it.file.match(/^(ba[23]|ma[234])-/)||[])[1]||'maps');
+    if(it.file.indexOf('ma3-ma4-')===0)course='maps';
+    var p=it.file.match(/-paper(\d+)-/),dse=it.file.match(/-dse(\d)-/),paper='';
+    if(p)paper='पेपर '+p[1];
+    else if(dse)paper='DSE '+dse[1];
+    else if(/group-a-(gitadarshana|isha|katha|gita)/.test(it.file))paper='DSE 1';
+    else if(/group-a-(kavya|kirata)/.test(it.file))paper='DSE 2';
+    else if(/group-b-sahityashastriya/.test(it.file))paper='DSE 3';
+    else if(/group-b-rupaka/.test(it.file))paper='DSE 4';
+    else if(group==='list-ma'&&it.n>=2&&it.n<=5)paper='पेपर '+(it.n-1);
+    else if(group==='list-ba'&&it.n>=8&&it.n<=10)paper='पेपर '+(it.n-7);
+    else if(group==='list-ba'&&it.n>=12&&it.n<=14)paper='पेपर '+(it.n-11);
+    else if(course==='ba2'&&/raghuvamsa/.test(it.file))paper='पेपर 2';
+    else if(course==='ba2')paper='पेपर 1';
+    else if(course==='ba3'&&/uttararamac|chandas8|alankara9/.test(it.file))paper='DSE 2';
+    if(!paper)paper='संयुक्त / सामान्य';
+    var topic=topicRules.find(function(r){return new RegExp(r[0]).test(it.file);});
+    topic=topic?topic[1]:course==='books'?'पुस्तक-सारांश':course==='jobs'?'भर्ती-संग्रह':'अन्य अध्ययन-पाठ';
+    var card=document.getElementById('gs-resource-'+it.n);
+    var tags=el('p','dash-card-tags',courses[course]+' · '+paper+' · '+topic);card.insertBefore(tags,card.firstChild);
+    var detail=card.querySelector('.lib-detail');var full=el('details','dash-card-scope');var summary=el('summary',null,'पूरा दायरा और स्रोत-सीमा पढ़ें');full.appendChild(summary);detail.parentNode.replaceChild(full,detail);full.appendChild(detail);
+    var preview=el('p','dash-card-preview',it.detail.split('।')[0]+'।');card.insertBefore(preview,full);
+    var record={it:it,course:course,paper:paper,topic:topic,card:card,search:(it.n+' '+it.title+' '+it.detail+' '+it.meta+' '+it.file+' '+courses[course]+' '+course+' '+paper+' '+topic).toLowerCase().normalize('NFKC')};records.push(record);
+  });});
+  var results=document.getElementById('dashboard-results');records.forEach(function(r){results.appendChild(r.card);});
+  document.querySelector('.gs-library-count').textContent=records.length+' PDFs';
+  var q=document.getElementById('study-search'),courseEl=document.getElementById('study-course'),paperEl=document.getElementById('study-paper'),topicEl=document.getElementById('study-topic'),formatEl=document.getElementById('study-format'),more=document.getElementById('study-more'),limit=12;
+  Object.keys(courses).forEach(function(c){var total=records.filter(function(r){return r.course===c;}).length;if(!total)return;var o=el('option',null,courses[c]+' ('+total+')');o.value=c;courseEl.appendChild(o);if(/^ba|^ma[1-4]$/.test(c)){var b=el('button','course-tile',courses[c]);b.type='button';b.dataset.course=c;b.appendChild(el('span',null,total+' सामग्री'));b.addEventListener('click',function(){courseEl.value=c;limit=12;updateOptions();update();});document.getElementById('course-tiles').appendChild(b);}});
+  function fillOptions(control,values,first){var old=control.value;control.replaceChildren(el('option',null,first));control.options[0].value='';values.forEach(function(v){var o=el('option',null,v);o.value=v;control.appendChild(o);});if(values.indexOf(old)>=0)control.value=old;}
+  function updateOptions(){var pool=records.filter(function(r){return !courseEl.value||r.course===courseEl.value;});fillOptions(paperEl,[...new Set(pool.map(function(r){return r.paper;}))].sort(function(a,b){return a.localeCompare(b,'hi',{numeric:true});}),'सभी पेपर / समूह');pool=pool.filter(function(r){return !paperEl.value||r.paper===paperEl.value;});fillOptions(topicEl,[...new Set(pool.map(function(r){return r.topic;}))].sort(),'सभी विषय / पाठ');}
+  function update(skipUrl){var words=q.value.toLowerCase().normalize('NFKC').trim().split(/\s+/).filter(Boolean),matched=records.filter(function(r){return (!courseEl.value||r.course===courseEl.value)&&(!paperEl.value||r.paper===paperEl.value)&&(!topicEl.value||r.topic===topicEl.value)&&(!formatEl.value||r.it.textFile)&&words.every(function(w){return r.search.includes(w);});});records.forEach(function(r){r.card.hidden=true;});matched.slice(0,limit).forEach(function(r){r.card.hidden=false;});document.getElementById('study-status').textContent=matched.length+' / '+records.length+' सामग्री · '+Math.min(limit,matched.length)+' दिखाई गईं';document.getElementById('study-empty').hidden=!!matched.length;more.hidden=matched.length<=limit;more.textContent='और सामग्री दिखाएँ ('+(matched.length-limit)+' बाकी)';document.querySelectorAll('.course-tile').forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.course===courseEl.value));});if(!skipUrl){var u=new URL(location.href);['q','course','paper','topic','format'].forEach(function(k,i){var v=[q.value,courseEl.value,paperEl.value,topicEl.value,formatEl.value][i];if(v)u.searchParams.set(k,v);else u.searchParams.delete(k);});history.replaceState(null,'',u.pathname+u.search);}}
+  q.addEventListener('input',function(){limit=12;update();});courseEl.addEventListener('change',function(){limit=12;paperEl.value='';topicEl.value='';updateOptions();update();});paperEl.addEventListener('change',function(){limit=12;topicEl.value='';updateOptions();update();});[topicEl,formatEl].forEach(function(e){e.addEventListener('change',function(){limit=12;update();});});
+  document.getElementById('study-reset').addEventListener('click',function(){q.value='';courseEl.value='';paperEl.value='';topicEl.value='';formatEl.value='';limit=12;updateOptions();update();q.focus();});more.addEventListener('click',function(){limit+=12;update();});
+  var params=new URLSearchParams(location.search);q.value=params.get('q')||'';courseEl.value=params.get('course')||'';updateOptions();paperEl.value=params.get('paper')||'';updateOptions();topicEl.value=params.get('topic')||'';formatEl.value=params.get('format')||'';update(true);
+  function routeAnchor(){var id=location.hash.slice(1);var r=records.find(function(x){return x.card.id===id;});if(r){q.value='';courseEl.value=r.course;paperEl.value='';topicEl.value='';formatEl.value='';limit=records.length;updateOptions();update(true);r.card.querySelector('details').open=true;requestAnimationFrame(function(){r.card.scrollIntoView({block:'start'});});}else if(['g-selected','g-ma','g-ba','g-ebook','g-jobs'].includes(id)){q.value='';courseEl.value=({'g-ma':'ma1','g-ba':'ba1','g-ebook':'books','g-jobs':'jobs'})[id]||'';paperEl.value='';topicEl.value='';formatEl.value='';limit=12;updateOptions();update(true);document.getElementById('study-dashboard').scrollIntoView();}}
+  window.addEventListener('hashchange',routeAnchor);routeAnchor();
+
   // Lazy-load pdf.js on first tap
   var pdfjsLoading = null;
   function loadPdfJs() {

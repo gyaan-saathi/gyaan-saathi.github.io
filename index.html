@@ -4,34 +4,45 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
-<title>Gyaan Saathi: पढ़ाई, jobs और छात्र अपडेट</title>
+<title>Gyaan Saathi | अध्ययन डैशबोर्ड, खोज और छात्र अपडेट</title>
 <meta content="पढ़ाई, नौकरी और छात्र अपडेट, तीनों एक जगह। चयनित अध्ययन-सामग्री, जाँचे हुए अवसर और आसान हिन्दी audio, पढ़ना मुफ़्त।" name="description"/>
-<link href="style.css?v=20261124-header3" rel="stylesheet"/>
+<link href="style.css?v=20261124-dashboard1" rel="stylesheet"/>
 </head>
 <body>
 <main class="page">
 <header class="head">
 <h1 class="title">Gyaan Saathi</h1>
-<p class="fact">पढ़ाई · jobs · छात्र अपडेट</p>
-<p class="intro">सीखें, अवसर खोजें और दुनिया को समझें। बिना login के पढ़ें और सुनें, पढ़ना मुफ़्त।</p>
+<p class="fact">आपका अध्ययन डैशबोर्ड</p>
+<p class="intro">अपना कोर्स चुनें। पाठ खोजें। सीधे पढ़ना शुरू करें।</p>
 <div class="h-lines"><p class="h-lines-name">Lucky</p><ul class="">
 <li><span class="c-label">WhatsApp:</span> <a class="c-val" href="https://wa.me/918120317123">+91 81203 17123</a></li>
 <li><span class="c-label">Instagram:</span> <a class="c-val" href="https://www.instagram.com/_lucky_y0_" rel="noopener">@_lucky_y0_</a></li>
 <li><span class="c-label">Gmail:</span> <a class="c-val" href="mailto:luckymuramkar@gmail.com">luckymuramkar@gmail.com</a></li>
 </ul><p class="h-lines-credit">Created by Meera</p></div>
-</header><section aria-label="ज्ञान साथी के तीन बराबर हिस्से" class="gs-portals">
+</header><nav aria-label="मुख्य नेविगेशन" class="dash-topnav"><a href="#study-dashboard">अध्ययन लाइब्रेरी</a><a href="updates.html?topic=jobs#updates">नौकरी के अवसर</a><a href="updates.html">छात्र अपडेट + audio</a></nav><section aria-labelledby="dash-title" class="study-dashboard" id="study-dashboard">
+<div class="dash-heading"><div><p class="dash-eyebrow">STUDY LIBRARY · पढ़ना मुफ़्त</p><h2 id="dash-title">आज क्या पढ़ना है?</h2><p>कोर्स, पेपर या पाठ का नाम चुनें। सभी 301 सामग्री-प्रविष्टियाँ एक जगह।</p></div><span class="dash-total"><b>301</b> PDFs</span></div>
+<div class="dash-search"><label for="study-search">पूरी लाइब्रेरी में खोजें</label><div class="search-row"><input autocomplete="off" id="study-search" placeholder="जैसे: मेघदूत, गीता, samasa, MA3…" type="search"/><button id="study-reset" type="button">साफ़ करें</button></div><p class="search-help">हिन्दी या English में पाठ/फाइल का नाम, विषय या सामग्री क्रमांक खोजें।</p></div>
+<div aria-label="कोर्स और वर्ष चुनें" class="dash-course-list" id="course-tiles" role="group"></div>
+<div class="dash-filters"><label>कोर्स / वर्ष / सेमेस्टर<select id="study-course"><option value="">सभी कोर्स</option></select></label><label>पेपर / समूह<select id="study-paper"><option value="">सभी पेपर / समूह</option></select></label><label>विषय / पाठ<select id="study-topic"><option value="">सभी विषय</option></select></label><label>पढ़ने का तरीका<select id="study-format"><option value="">सभी सामग्री</option><option value="unicode">यूनिकोड पाठ भी उपलब्ध</option></select></label></div>
+<p class="dash-scope"><strong>दायरा पहले देखें:</strong> ये चयनित अध्ययन-सामग्री, पाठ्यक्रम दस्तावेज़ और पुस्तक-सारांश हैं, सम्पूर्ण पाठ्यक्रम होने का दावा नहीं। हर कार्ड में सत्र, स्रोत और अध्ययन-सीमा देखें; वर्तमान कॉलेज पाठ्यक्रम से मिलान करें।</p>
+<div class="dash-resultbar"><h3>आपकी अध्ययन-सामग्री</h3><p aria-live="polite" id="study-status" role="status"></p></div>
+<div class="dash-grid" id="dashboard-results"></div>
+<div class="dash-empty" hidden="" id="study-empty"><h3>इस खोज से सामग्री नहीं मिली</h3><p>छोटा नाम खोजें, कोई फ़िल्टर हटाएँ या “साफ़ करें” दबाएँ। जैसे: मेघदूत, शुकनास, व्याकरण।</p></div>
+<button class="btn dash-more" hidden="" id="study-more" type="button">और सामग्री दिखाएँ</button>
+<noscript><p>खोज और इन-पेज PDF reader के लिए JavaScript चालू करें। सीधे <a href="updates.html">छात्र अपडेट</a> खोल सकते हैं।</p></noscript>
+</section><details class="dash-notes"><summary>स्रोत, पुराने प्रश्नपत्र और सारांश के बारे में</summary><p>प्रथम सेमेस्टर के पुराने प्रश्नपत्र तीसरे-पक्ष के ऑनलाइन संग्रह से मिले थे, आधिकारिक स्रोत से सत्यापित नहीं। प्रश्नों के दोहराने की गारंटी नहीं। पुस्तक-सारांश मूल किताब का विकल्प नहीं हैं। पुराने भर्ती-संग्रह पर उसकी तारीख देखें; वर्तमान अवसरों के लिए छात्र अपडेट में मूल सूचना जाँचें।</p></details><section aria-label="ज्ञान साथी के तीन बराबर हिस्से" class="gs-portals">
 <article class="gs-portal"><p class="gs-kicker">01 · पढ़ाई</p><h2>समझकर पढ़ें</h2><p>संस्कृत के नोट्स, मूल पाठ और अभ्यास। 301 PDFs की लाइब्रेरी, हर पाठ की सीमा साथ में।</p><p class="gs-portal-note">चयनित सामग्री है, पूरे वर्ष या सेमेस्टर के सम्पूर्ण सेट नहीं।</p><a class="btn" href="#g-selected">पढ़ाई खोलें →</a></article>
 <article class="gs-portal"><p class="gs-kicker">02 · jobs</p><h2>सही अवसर खोजें</h2><p>जाँची हुई भर्ती की जानकारी, योग्यता, आखिरी तारीख और सीधे आधिकारिक स्रोत।</p><p class="gs-portal-note">हर भर्ती सभी के लिए नहीं। आवेदन से पहले शर्तें और शुल्क जाँचें।</p><a class="btn" href="updates.html?topic=jobs#updates">jobs देखें →</a></article>
 <article class="gs-portal"><p class="gs-kicker">03 · छात्र अपडेट</p><h2 id="new-updates-title">आसपास से दुनिया तक</h2><p>कॉलेज, स्थानीय आयोजन और भारत-दुनिया की चुनी हुई खबरें, आसान हिन्दी audio के साथ।</p><p class="gs-portal-note">चुना हुआ बुलेटिन है, हर खबर या आयोजन की पूरी सूची नहीं।</p><a class="btn" href="updates.html">अपडेट और audio →</a></article>
 </section>
-<nav aria-label="पढ़ाई की लाइब्रेरी में जाएँ" class="gs-shortcuts">
+<nav aria-label="पढ़ाई की लाइब्रेरी में जाएँ" class="gs-shortcuts legacy-library">
 <a class="gs-new-shortcut" href="#g-selected">नये संस्कृत अध्ययन-पाठ</a>
 <a href="#g-ma">एम.ए. सेमेस्टर 1</a>
 <a href="#g-ba">बी.ए. प्रथम वर्ष</a>
 <a href="#g-ebook">पुस्तक-सारांश</a>
 </nav>
-<p class="gs-scope"><strong class="gs-library-count">301 PDFs</strong> · पढ़ाई के मौजूदा नोट्स, पाठ्यक्रम दस्तावेज़ और पुस्तक-सारांश। हर PDF का अपना विषय और दायरा है; परीक्षा के लिए अपने नवीनतम पाठ्यक्रम से मिलाएँ।</p>
-<section aria-labelledby="g-selected">
+<p class="gs-scope legacy-library"><strong class="gs-library-count">301 PDFs</strong> · पढ़ाई के मौजूदा नोट्स, पाठ्यक्रम दस्तावेज़ और पुस्तक-सारांश। हर PDF का अपना विषय और दायरा है; परीक्षा के लिए अपने नवीनतम पाठ्यक्रम से मिलाएँ।</p>
+<section aria-labelledby="g-selected" class="legacy-library">
 <h2 class="group-label" id="g-selected">नये संस्कृत अध्ययन-पाठ</h2>
 <p class="gs-scope">यहाँ चयनित अध्ययन-सहायिकाएँ और पाठ्यक्रम-मानचित्र हैं। पूरे वर्ष या सेमेस्टर का सम्पूर्ण सेट अभी उपलब्ध नहीं है। हर पुस्तक की सीमा और स्रोत-सत्र नीचे देखें।</p>
 <nav aria-label="नये पाठ: वर्ष और सेमेस्टर" class="gs-shortcuts">
@@ -44,11 +55,11 @@
 </nav>
 <div class="lib-list" id="list-selected"></div>
 </section>
-<figure class="hero">
+<figure class="hero legacy-library">
 <img alt="किताबों और documents का सजावटी चित्रण" height="800" loading="lazy" src="library-hero.jpg" width="1200"/>
 <figcaption class="lib-meta">सजावटी चित्रण।</figcaption>
 </figure>
-<section aria-labelledby="g-jobs">
+<section aria-labelledby="g-jobs" class="legacy-library">
 <h2 class="group-label" id="g-jobs">सरकारी भर्तियाँ</h2>
 <div class="lib-list" id="list-jobs"></div>
 <div class="callout callout-warn">
@@ -56,7 +67,7 @@
 <p>भर्ती की जानकारी बदलती रहती है। आवेदन से पहले official notice, corrigendum और अंतिम तिथि ज़रूर जांचें। हर entry पर source-check की तारीख लिखी है।</p>
 </div>
 </section>
-<section aria-labelledby="g-ma">
+<section aria-labelledby="g-ma" class="legacy-library">
 <h2 class="group-label" id="g-ma">एम.ए. संस्कृत, सेमेस्टर 1 (DAVV)</h2>
 <div class="lib-list" id="list-ma"></div>
 <div class="callout callout-note">
@@ -64,11 +75,11 @@
 <p>पुराने प्रश्नपत्र तीसरे-पक्ष के online संग्रह से मिले हैं, official स्रोत से verify किए हुए नहीं। किसी प्रश्न के फिर से आने की गारंटी नहीं है, इन्हें तैयारी की दिशा समझें।</p>
 </div>
 </section>
-<section aria-labelledby="g-ba">
+<section aria-labelledby="g-ba" class="legacy-library">
 <h2 class="group-label" id="g-ba">बी.ए. संस्कृत, प्रथम वर्ष</h2>
 <div class="lib-list" id="list-ba"></div>
 </section>
-<section aria-labelledby="g-ebook">
+<section aria-labelledby="g-ebook" class="legacy-library">
 <h2 class="group-label" id="g-ebook">ई-बुक्स: पुस्तक सारांश</h2>
 <div class="lib-list" id="list-ebook"></div>
 <div class="callout callout-note">
@@ -81,8 +92,7 @@
 <p class="lib-detail">नई PDF सुझाने या जुड़वाने के लिए Lucky को <a href="https://wa.me/918120317123">WhatsApp</a> करें।</p>
 </section>
 <footer class="foot">
-<p class="lib-meta">अंतिम वेबसाइट अपडेट: 23 नवंबर 2026। अध्ययन-सामग्री का दायरा हर entry में देखें।</p>
-
+<p class="lib-meta">अंतिम वेबसाइट अपडेट: 24 नवंबर 2026। खोज और फ़िल्टर सामग्री ढूँढने में मदद करते हैं; अध्ययन-सीमा हर कार्ड में देखें।</p>
 </footer>
 </main>
 <dialog class="gs-dlg" id="reader-dlg">
@@ -110,6 +120,6 @@
 <p class="gs-dl"><a class="btn btn-secondary" href="#" id="r-download">यह PDF डाउनलोड करें</a> <a class="btn btn-secondary" hidden="" href="#" id="r-text-link">यूनिकोड पाठ खोलें</a></p>
 </div>
 </dialog>
-<script src="app.js?v=20261123-demo262"></script>
+<script src="app.js?v=20261124-dashboard1"></script>
 </body>
 </html>
