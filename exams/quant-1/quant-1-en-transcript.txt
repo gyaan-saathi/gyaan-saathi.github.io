@@ -1,0 +1,15 @@
+Quantitative Aptitude, module one. Percentage, profit and loss, and discount. This is a study lesson. All numbers in the examples are made up, and every answer was checked by calculation. The SSC CGL 2026 notice lists these topics in its Quantitative Aptitude syllabus, and says that section is at tenth standard level.
+
+Percentage. Percent means per hundred. To find the percentage change, take the new value minus the old value, divide by the old value, and multiply by one hundred. Always divide by the old value. Example: a value goes from 80 to 100. The change is 20. Twenty divided by 80 is a quarter, so the increase is 25 percent. But going back from 100 to 80 is a fall of only 20 percent, because now the old value is 100.
+
+Successive changes. Multiply the factors. A price rises 25 percent, then falls 20 percent. One point two five times point eight is exactly one. So there is no net change. The shortcut formula is a plus b plus a times b, divided by one hundred. Use plus for an increase and minus for a decrease. Here a is plus 25 and b is minus 20. That gives 25, minus 20, minus 5, which is zero. Another example: a population of 40,000 grows 10 percent for two years. 40,000 times 1.1 times 1.1 is 48,400.
+
+Profit and loss. Profit is selling price minus cost price. Profit percent is profit divided by cost price, times one hundred. Always on the cost price. Example: cost 500, selling price 575. Profit is 75. Seventy-five over 500 is 15 percent. For a loss, cost 800 and selling price 680 gives a loss of 120, and that is 15 percent of 800. To find the selling price for a 20 percent profit on 450, multiply 450 by 1.2, which gives 540. To find the cost price when an item sold at a 10 percent loss fetches 540, divide 540 by point nine. The cost price is 600.
+
+Discount. Discount is always on the marked price. Selling price equals marked price times, one minus the discount percent divided by one hundred. For 15 percent, that is marked price times one minus point one five, which is point eight five. Marked price 1,200 with 15 percent off gives 1,020. If the marked price is 2,000 and the selling price 1,700, the discount is 300, which is 15 percent. Two successive discounts of 20 and 10 percent do not make 30. Multiply: point eight times point nine is point seven two. So the single discount is 28 percent.
+
+All three together. An item is marked 40 percent above cost and sold at 25 percent off. Take the cost as 100. You can do this because only percentages are given. Marked price is 140. Selling price is 140 times point seven five, which is 105. So the profit is 5 percent. When a problem gives only percentages and no real money amount, you may assume the cost is 100. If it gives an actual amount, use that amount instead.
+
+Common mistakes. Dividing by the new value. Adding successive percentages without the product term. Calculating profit on selling price. Calculating discount on cost price. And thinking a 25 percent rise and a 25 percent fall cancel. They do not. They leave a net fall of 6.25 percent.
+
+Now try the twelve practice questions. They are original, not previous-year questions.

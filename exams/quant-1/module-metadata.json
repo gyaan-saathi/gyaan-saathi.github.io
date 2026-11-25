@@ -1,0 +1,35 @@
+{
+  "module": "qa1",
+  "exam_family": "SSC CGL Tier-I Part C and bank quant sections",
+  "subject": "Quantitative Aptitude",
+  "title_en": "Percentage, profit and loss, discount",
+  "title_hi": "प्रतिशत, लाभ-हानि, छूट",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "status": "content-reviewed-v3-audio-asr-checked",
+  "contains_pyq": false,
+  "practice": "original, 12 MCQs, answers verified by calculation",
+  "audio": {
+    "hindi": {
+      "file": "quant-1-hi.mp3",
+      "duration_seconds": 275.18,
+      "status": "final-asr-checked-by-main"
+    },
+    "english": {
+      "file": "quant-1-en.mp3",
+      "duration_seconds": 276.29,
+      "status": "final-asr-checked-by-main"
+    }
+  },
+  "syllabus_ground": {
+    "topics": "SSC CGL 2026 notice para 13.10.3",
+    "level": "SSC CGL 2026 notice para 13.10.5"
+  },
+  "sources_accessed": "2026-11-25",
+  "expert_reviewed": false,
+  "release_status": "live",
+  "prepared_on": "2026-11-25",
+  "released_on": "2026-11-25"
+}
