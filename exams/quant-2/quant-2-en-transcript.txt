@@ -1,0 +1,21 @@
+Quantitative Aptitude, module two. Ratio, average, simple interest and compound interest. This is a study lesson. All numbers are made up and every answer was checked by calculation. The SSC CGL 2026 notice lists ratio and proportion, averages and interest in its Quantitative Aptitude scope. The Tier-Two indicative syllabus names simple and compound interest.
+
+Ratio. A ratio compares two quantities of the same kind. Two to three and four to six are the same ratio, because only the relative size matters. To divide an amount in the ratio a to b, add the parts, a plus b. For the first share, divide a by the sum a plus b, then multiply that fraction by the total. For the second share, divide b by the sum a plus b, then multiply by the total. Keep both quantities in the same unit. Example: divide 1,200 rupees in the ratio 3 to 5. There are 8 parts. The shares are 1,200 times 3 over 8, which is 450, and 1,200 times 5 over 8, which is 750.
+
+Combining ratios. A to B is 2 to 3, and B to C is 4 to 5. Make B the same in both. Multiply the first by 4 and the second by 3. A to B is 8 to 12, and B to C is 12 to 15. So A, B, C is 8, 12, 15.
+
+Ages. Two ages are in the ratio 3 to 4 and sum to 56. One part is 56 divided by 7, which is 8. The ages are 24 and 32. After 6 years, add 6 to each age, not to the ratio. You get 30 and 38, a ratio of 15 to 19.
+
+Average. Average is the sum of values, divided by how many values there are. So sum equals average times number. Convert to sums. The average of 5 numbers is 24, so the sum is 120. Add a sixth number, 36. The new sum is 156, and the new average is 26.
+
+Combined average. 40 students average 55, and 60 students average 60. Total marks are 2,200 plus 3,600, which is 5,800. Divide by 100 students. The average is 58. It lies between 55 and 60, closer to the larger group.
+
+Replacement. The average of 8 persons rises by 2 when a person aged 50 is replaced by a new person. The total rises by 8 times 2, which is 16. The new person is 50 plus 16, which is 66. If the average had fallen, you would subtract.
+
+Simple interest. Simple interest equals, principal times rate times time, all divided by 100. Rate is percent per year, time is in years. Example: 5,000 rupees at 8 percent for 3 years. 5,000 times 8 times 3, divided by 100, is 1,200 rupees.
+
+Compound interest. Interest is added to the principal each year. Amount equals principal times, bracket, one plus rate over 100, close bracket, raised to the power T, where T is the number of years. Example: 10,000 rupees at 10 percent for 2 years, compounded yearly. 10,000 times 1.1 times 1.1 is 12,100. In brackets: first work out 1 plus 10 over 100, which is 1.1. Then square that bracket, which gives 1.21. Then multiply by 10,000. Compound interest is amount minus principal, so 2,100 rupees. This shortcut applies only when the same principal is invested at the same constant annual rate for exactly 2 years, with yearly compounding. Then compound minus simple interest equals the principal multiplied by the square of rate over 100. Square only the rate over 100, here 10 over 100, which is 0.1. Its square is 0.01. Then multiply by the principal, 10,000. That is 100. Check: simple interest is 2,000 and compound is 2,100.
+
+Common mistakes. Adding the same number to both parts of a ratio and expecting the ratio to stay. Averaging two averages without weighting by group size. Using simple interest where compounding is stated. And giving the amount when interest was asked.
+
+Now try the ten practice questions. They are original, not previous-year questions.

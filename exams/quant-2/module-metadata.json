@@ -1,0 +1,36 @@
+{
+  "module": "qa2",
+  "exam_family": "SSC CGL Tier-I Part C and bank quant sections",
+  "subject": "Quantitative Aptitude",
+  "title_en": "Ratio, average, simple and compound interest",
+  "title_hi": "अनुपात, औसत, साधारण और चक्रवृद्धि ब्याज",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "status": "content-reviewed-v4-audio-asr-checked",
+  "contains_pyq": false,
+  "practice": "original, 10 MCQs, answers verified by calculation",
+  "audio": {
+    "hindi": {
+      "file": "quant-2-hi.mp3",
+      "duration_seconds": 320.81,
+      "status": "final-asr-checked-by-main"
+    },
+    "english": {
+      "file": "quant-2-en.mp3",
+      "duration_seconds": 318.74,
+      "status": "final-asr-checked-by-main"
+    }
+  },
+  "syllabus_ground": {
+    "topics": "SSC CGL 2026 notice para 13.10.3",
+    "tier_ii_interest": "SSC CGL 2026 notice para 13.11.1.2",
+    "level": "SSC CGL 2026 notice para 13.10.5"
+  },
+  "sources_accessed": "2026-11-25",
+  "expert_reviewed": false,
+  "release_status": "live",
+  "prepared_on": "2026-11-25",
+  "released_on": "2026-11-25"
+}
