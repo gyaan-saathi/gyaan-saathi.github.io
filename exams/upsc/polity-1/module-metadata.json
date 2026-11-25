@@ -1,0 +1,30 @@
+{
+  "module": "pol1",
+  "exam_family": "UPSC CSE Prelims (also useful for SSC, bank, railway, state)",
+  "subject": "Indian Polity",
+  "title_en": "The Preamble and key Fundamental Rights",
+  "title_hi": "प्रस्तावना और मुख्य मौलिक अधिकार",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "status": "verified-sources-v2",
+  "contains_pyq": false,
+  "practice": "original, 12 MCQs, labelled",
+  "audio": {
+    "hindi": {
+      "file": "polity-1-hi.mp3",
+      "duration_seconds": 319.34,
+      "status": "final-asr-checked-by-main"
+    },
+    "english": {
+      "file": "polity-1-en.mp3",
+      "duration_seconds": 272.9,
+      "status": "final-asr-checked-by-main"
+    }
+  },
+  "sources_accessed": "2026-11-25",
+  "expert_reviewed": false,
+  "release_status": "live",
+  "released_on": "2026-11-25"
+}

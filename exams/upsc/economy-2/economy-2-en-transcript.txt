@@ -1,0 +1,27 @@
+Economy, module two. Government borrowing, the Market Stabilisation Scheme, SEBI, and financial inclusion. This is a study lesson. Example numbers are made up. For current figures, check official websites.
+
+Part one. How the Government borrows.
+
+Article 292 says the Union's executive power extends to borrowing on the security of the Consolidated Fund of India, within any limits Parliament fixes by law. Article 293 says a State can borrow only within the territory of India, on the security of its own Consolidated Fund, and needs the Centre's consent while any part of a Union loan to it, or a loan the Union guaranteed, is still outstanding. Article 293 is about where a State borrows. It does not say who the lender is. The RBI manages government borrowing as agent of the Union and the States, under Sections 20 and 21 of the RBI Act, 1934 for the Union, and Section 21A, by agreement, for States.
+
+Public debt of the Centre means internal debt plus external debt. In the source we used, internal debt is owed to residents and external debt to non-residents. That budget classification is separate from the constitutional rule for States.
+
+The main internal instruments are these. Dated securities carry a coupon and a set redemption date, and they are the biggest source of financing for the fiscal deficit. Treasury bills are zero coupon. They are issued at a discount and repaid at face value, to cover short-term gaps. The main tenors are 91, 182 and 364 days. There are also securities issued to international financial institutions, special securities against small savings held through the National Small Savings Fund, and Market Stabilisation Scheme bonds.
+
+Example, with made-up numbers. A 91-day T-bill of face value 100 rupees is bought at 99. At maturity you get 100. The gain is one rupee on 99, about 1.01 percent in 91 days, or roughly 4.05 percent a year.
+
+Part two. Sterilisation and the MSS.
+
+Suppose large foreign capital flows in. The RBI buys foreign exchange to hold the exchange rate. Rupee liquidity rises, and so does money supply. To take the liquidity back, the RBI sells government securities. But its stock of securities is limited. So the Market Stabilisation Scheme was created, under an agreement between the RBI and the Government. The Government issues T-bills and dated securities by RBI auction, up to an agreed ceiling, to absorb the extra liquidity. The money is held in a separate cash account with the RBI and used only to redeem those securities. These securities count as internal debt of the Centre. In February 2009 the agreement was amended so part of the money could be used for normal borrowing, to fund stimulus spending.
+
+Part three. SEBI.
+
+SEBI began on 12 April 1988 as a non-statutory body. It became statutory under the SEBI Act, 1992, in force from 30 January 1992. Its preamble gives three jobs: protect investors in securities, promote the securities market, and regulate it. Remember, the RBI handles banks and monetary policy. SEBI handles the securities market.
+
+Part four. Financial inclusion.
+
+The Rangarajan Committee, reporting in January 2008, defined it as ensuring access to financial services and timely, adequate credit, where needed, by vulnerable groups at an affordable cost. It listed credit, savings, insurance, and payments and remittance. The Rajan committee asked for a broader view, beyond credit, to payments, savings, insurance and pensions. The Pradhan Mantri Jan-Dhan Yojana was announced on 15 August 2014 and launched on 28 August 2014. Its aim is to bring unbanked households into the banking system. Benefit amounts and conditions have changed over time, so check the official site for current terms.
+
+The Narasimham Working Group of 1975 and the RRB Act of 1976 are part of the Regional Rural Banks story. The first one, Prathama Grameen Bank, began on 2 October 1975, before the 1976 Act. Issued capital is subscribed by the Centre, the State and the sponsor bank in the ratio 50 to 15 to 35. Since 2016 an RRB can raise outside capital, if the Centre and sponsor bank keep at least 51 percent.
+
+Now try the practice questions. They are original, not previous-year questions.

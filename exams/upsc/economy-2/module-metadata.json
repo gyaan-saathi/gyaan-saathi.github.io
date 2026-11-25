@@ -1,0 +1,31 @@
+{
+  "module": "econ2",
+  "exam_family": "UPSC CSE Prelims (also useful for SSC, bank, railway, state)",
+  "subject": "Indian Economy",
+  "title_en": "Government borrowing, MSS, SEBI and financial inclusion",
+  "title_hi": "सरकारी उधार, MSS, SEBI और वित्तीय समावेशन",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "status": "verified-sources-only-v3",
+  "contains_pyq": false,
+  "practice": "original, 12 MCQs, labelled",
+  "audio": {
+    "hindi": {
+      "file": "economy-2-hi.mp3",
+      "duration_seconds": 341.16,
+      "status": "final-asr-checked-by-main"
+    },
+    "english": {
+      "file": "economy-2-en.mp3",
+      "duration_seconds": 308.04,
+      "status": "final-asr-checked-by-main"
+    }
+  },
+  "sources_accessed": "2026-11-25",
+  "expert_reviewed": false,
+  "verified_on": "2026-11-25",
+  "release_status": "live",
+  "released_on": "2026-11-25"
+}
