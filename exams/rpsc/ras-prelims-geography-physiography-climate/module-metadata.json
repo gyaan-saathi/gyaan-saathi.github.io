@@ -1,0 +1,31 @@
+{
+  "module": "geo1",
+  "exam_family": "RPSC RAS Prelims 2024",
+  "subject": "Geography of Rajasthan",
+  "title_en": "Physiographic regions and climate",
+  "title_hi": "भौतिक प्रदेश और जलवायु",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "status": "content-reviewed-v3",
+  "contains_pyq": false,
+  "coverage": "first two Geography of Rajasthan syllabus bullets only; short notes, not a full chapter",
+  "practice": "original, 10 MCQs, answers from checked sources",
+  "audio": {
+    "hindi": {
+      "file": "rpsc-geo1-hi.mp3",
+      "duration_seconds": 216.456,
+      "status": "final"
+    },
+    "english": {
+      "file": "rpsc-geo1-en.mp3",
+      "duration_seconds": 204.264,
+      "status": "final"
+    }
+  },
+  "sources_accessed": "2026-11-25",
+  "expert_reviewed": false,
+  "release_status": "live",
+  "released_on": "2026-11-25"
+}
