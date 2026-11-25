@@ -1,0 +1,41 @@
+UPSC Prelims 2023, General Studies Paper One. Fourteen questions, explained.
+
+First, how this set was built. These are fourteen questions from the Series A paper. Each one comes with the answer from UPSC's official answer key, and an explanation written for this hub, with sources. The key itself gives only letters, not reasons. We read the key from an archived copy of UPSC's own file, because the original link no longer opens. UPSC dropped one question, number thirty-four, from scoring, so it is not in this set. These fourteen were picked because they could be explained with sources. They are not a representative sample, so please do not read any trend from them. Answers follow the position at the time of the 2023 exam. For exact wording and options, open the official paper.
+
+Part one. Polity and law.
+
+Question thirty-five. Which of four bodies are constitutional bodies? The bodies are the National Commission for Backward Classes, the National Human Rights Commission, the Law Commission, and the National Consumer Disputes Redressal Commission. The key says option a, only one. The Backward Classes Commission is constitutional, under Article 338B. The Human Rights Commission was created by an Act of Parliament in 1993. The Law Commission is non-statutory, set up by a government notification. The Consumer Commission is created under section 53 of the Consumer Protection Act, 2019. So only one body is constitutional.
+
+Question thirty-six. Three statements about the President. The key says option d, none is correct. Statement one says acts of a President become invalid if the election is declared void. Article 71 says that if the Supreme Court declares the election void, acts the President did in office up to the date of that decision are not invalidated on that ground alone. Statement two says the election can be postponed because some assemblies are dissolved. Article 71 says the election cannot be challenged because of vacancies in the electoral college, and Article 62 says the election for an expiring term must be completed before the term ends. Read together, they do not allow that postponement. Statement three says the Constitution sets a time limit for assent to a Bill. Article 111 sets no time limit. So none is correct.
+
+Question forty. Statement one says the Supreme Court has held that reservation under Article 16 clause 4 is limited by Article 335, which is about efficiency of administration. Statement two says Article 335 defines efficiency of administration. The key says option c: statement one is correct, statement two is not. In the Nagaraj case, decided in 2006, the Court treated efficiency under Article 335 as a limit on reservation in promotions. But Article 335 does not define the term. It only says the claims of Scheduled Castes and Scheduled Tribes are considered consistently with maintaining efficiency, and a 2000 proviso allows some relaxations.
+
+Part two. Economy.
+
+Question twenty-four. Which Reserve Bank activity is part of sterilisation? The key says option a, open market operations. The textbook case: when the Reserve Bank buys foreign exchange, it pays out rupees, and that adds liquidity. Sterilisation offsets that effect. Selling government securities through open market operations is one way to do it. Payment system oversight, government debt management, and regulating non-bank lenders are other Reserve Bank functions, but they are not sterilisation tools.
+
+Question twenty-five. Of government bonds, call money, treasury bills and the stock market, how many are capital markets? The key says option b, only two. The usual school rule sorts markets by maturity. Under one year is the money market. Longer is the capital market. Call money and treasury bills are money market. Government bonds and the stock market are capital market. So two. Remember this is the textbook maturity convention.
+
+Question twenty-nine. This is the formula for the 2021 to 2026 award period. Besides population, area and income distance, how many criteria did the Fifteenth Finance Commission use to share taxes among states? The key says option b, three. The three are forest and ecology, demographic performance, and tax and fiscal effort. The weights were income distance forty-five percent, population fifteen, area fifteen, forest and ecology ten, demographic performance twelve and a half, and tax and fiscal effort two and a half. Governance reform and stable government were not in the formula.
+
+Part three. Resources and geography.
+
+Question two. Three port pairs. Kamarajar as the first major port registered as a company. Mundra as the largest privately owned port. Visakhapatnam as the largest container port. The key says option b. The first two pairs are correct, and the third pair is incorrect, according to the official key. For context, Kamarajar describes itself as the first port in India that is a public company, and the Mundra operator calls it the largest privately developed port in the country. The Jawaharlal Nehru Port describes itself as the premier container port, handling about half of the container cargo of the major ports. Mundra's claim comes from the port operator's own description.
+
+Question six. Ilmenite and rutile are rich sources of which metal? The key says option d, titanium. Both are ore minerals mined for titanium. India has such beach sand minerals along coasts in states like Andhra Pradesh, Odisha, Tamil Nadu and Kerala.
+
+Question seven. Which country produces about three-fourths of the world's cobalt? The key says option c, the Democratic Republic of the Congo. The United States Geological Survey names Congo as the world's leading source of mined cobalt. Exact shares change from year to year.
+
+Question sixty-one. How many of Bulgaria, Czech Republic, Hungary, Latvia, Lithuania and Romania share a land border with Ukraine? The key says option a, only two. Ukraine's seven land neighbours are Russia, Belarus, Poland, Slovakia, Hungary, Romania and Moldova. From the list, only Hungary and Romania are neighbours.
+
+Part four. Science, environment and health.
+
+Question three. How many of jackfruit, mahua and teak are deciduous? The key says option b, only two. Jackfruit is evergreen. Mahua and teak are deciduous.
+
+Question fifty-two. Four statements on the Anaemia Mukt Bharat strategy. The key says option c, three are correct. Prophylactic calcium is not one of its six interventions, so statement one is wrong. The strategy does include a campaign with delayed cord clamping, periodic deworming for children and adolescents, and action on non-nutritional causes such as malaria, hemoglobinopathies and fluorosis. So statements two, three and four are correct. This follows the strategy as described around 2019, and not later revisions.
+
+Question sixty-five. Two statements on earthquake waves. The key says option c, both are correct. P waves are recorded first, and the rock moves back and forth along the direction the wave travels. S waves arrive later, and the rock moves at right angles to the direction of travel. The statement says up and down, which is the textbook picture of that sideways motion. The source says perpendicular without naming one direction, and the official key counts the statement as correct.
+
+Question sixty-seven. The Wolbachia method is mentioned in connection with what? The key says option a, controlling viral diseases spread by mosquitoes. Aedes aegypti mosquitoes that carry Wolbachia bacteria are less able to pass on dengue, Zika, chikungunya and yellow fever.
+
+That is the set. Open the official paper to practise the exact wording, and read the written notes for the sources.

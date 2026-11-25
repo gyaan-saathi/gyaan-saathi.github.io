@@ -1,0 +1,51 @@
+{
+  "set": "upsc-csp-2023-gs1-series-a-teaching-set",
+  "exam": "UPSC Civil Services Preliminary Examination 2023",
+  "paper": "General Studies Paper I",
+  "series": "A",
+  "booklet_code": "XDTG-F-GST",
+  "selected_questions": [
+    2,
+    3,
+    6,
+    7,
+    24,
+    25,
+    29,
+    35,
+    36,
+    40,
+    52,
+    61,
+    65,
+    67
+  ],
+  "question_count": 14,
+  "contains_pyq": true,
+  "wording": "concise paraphrases; exact wording and options in official UPSC paper",
+  "answer_key": {
+    "basis": "UPSC official answer key, Series A",
+    "key_pdf_source": "archived original UPSC PDF captured 2024-06-15",
+    "dropped_question": 34,
+    "scored_questions": 99
+  },
+  "limits": [
+    "not a representative sample",
+    "no count or trend claim",
+    "answers follow the position at the time of the 2023 exam"
+  ],
+  "audio": {
+    "hindi": {
+      "file": "upsc-2023-gs1-pyq-hi.mp3",
+      "status": "available",
+      "duration_seconds": 563.448
+    },
+    "english": {
+      "file": "upsc-2023-gs1-pyq-en.mp3",
+      "status": "available",
+      "duration_seconds": 571.488
+    }
+  },
+  "release_status": "published",
+  "published_on": "2026-11-25"
+}
