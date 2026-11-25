@@ -1,0 +1,31 @@
+{
+  "module": "reas1",
+  "exam_family": "SSC CGL 2026",
+  "subject": "General Intelligence and Reasoning",
+  "title_en": "Number series, coding-decoding, syllogism and Venn count",
+  "title_hi": "Number Series, Coding-Decoding, Syllogism और Venn गिनती",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "status": "content-reviewed-v2",
+  "contains_pyq": false,
+  "coverage": "four original basics from SSC CGL 2026 Notice para 13.10.1 only; not full reasoning",
+  "practice": "original, 10 MCQs, answers checked by calculation",
+  "audio": {
+    "hindi": {
+      "file": "reasoning-1-hi.mp3",
+      "duration_seconds": 253.848,
+      "status": "final"
+    },
+    "english": {
+      "file": "reasoning-1-en.mp3",
+      "duration_seconds": 227.928,
+      "status": "final"
+    }
+  },
+  "sources_accessed": "2026-11-25",
+  "expert_reviewed": false,
+  "release_status": "live",
+  "released_on": "2026-11-25"
+}

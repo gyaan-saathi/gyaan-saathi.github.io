@@ -1,0 +1,17 @@
+Reasoning basics: number series, coding-decoding, syllogism, and a Venn count. This is original study material with examples I wrote and checked by calculation. It is not a previous-year paper. It follows the SSC CGL 2026 Notice, paragraph 13.10.1, which lists Number Series, Coding and De-coding, statement conclusion and syllogistic reasoning, and Venn Diagrams. That notice is for 2026, so treat its pattern as historical for any other year, and other exams have their own syllabi.
+
+Number series. Any finite list of terms fits many rules, so use the simplest rule that fits every term. Find the differences. If they are not constant, try differences of differences, or times and add. Check the rule on every term.
+
+Example one. Three, seven, fifteen, thirty-one, sixty-three. Each term is twice the previous plus one. The next is one hundred twenty-seven.
+
+Example two. Two, six, twelve, twenty, thirty. These are one times two, two times three, three times four, and so on. The next is six times seven, forty-two.
+
+Example three. One hundred, ninety-one, eighty-three, seventy-six, seventy. Differences are minus nine, minus eight, minus seven, minus six. Next difference is minus five, so the term is sixty-five.
+
+Coding and decoding. In an exam the rule is either stated or worked out from examples. Here the rule is always stated. Give each letter its place in the alphabet, A is one and Z is twenty-six. A shift code moves every letter by a fixed number. C A T with plus two becomes E C V, so D O G becomes F Q I. A position-sum code adds the places. H E A D is eight plus five plus one plus four, eighteen. An opposite-letter code swaps A with Z, B with Y. C A T becomes X Z G. A letter series A, C, F, J, O follows positions one, three, six, ten, fifteen, the triangular numbers, as the intended rule. Next is twenty-one, which is U.
+
+Syllogism. Accept a conclusion only if it follows definitely, which means it holds in every way the circles can be drawn. One drawing where it fails is a counterexample. Do not use general knowledge. This lesson does not cover possibility-type conclusions. Some A are B means at least one A is a B. All A are B and all B are C gives all A are C. But all A are B does not give all B are A. Some A are B and all B are C gives some A are C. For example, pens inside books inside tables does not give all tables are books, because some tables can lie outside the books circle.
+
+Venn count for two sets. Read the counts carefully. Twenty-five like tea is an inclusive count, so it includes anyone who likes both. At least one equals A plus B minus both. In a class of forty, twenty-five like tea, including any who like both, twenty like coffee, including any who like both, and five like neither. Thirty-five like at least one. Both is twenty-five plus twenty minus thirty-five, which is ten.
+
+Always check with a second method. Now try the ten practice questions, then check your answers.
