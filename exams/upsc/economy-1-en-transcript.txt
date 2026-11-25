@@ -1,0 +1,23 @@
+Economy, module one. The RBI, monetary policy, and the Union Budget deficits. This is a study lesson. The numbers in the examples are made up for practice. Policy facts are as on the RBI website on 25 November 2026. For today's actual rates, check the RBI website.
+
+Part one. Monetary policy.
+
+The Reserve Bank of India runs monetary policy. Its main aim is price stability, while keeping growth in mind. Since 2016 the RBI Act has a flexible inflation targeting framework. Under Section 45ZA, the Central Government, after consulting the RBI, sets the target in terms of CPI inflation, once every five years. The target is 4 percent, with a band of 2 percent below and 2 percent above, so 2 to 6. The government kept this for April 2021 to March 2026, and in a March 2026 review, for April 2026 to March 2031. The target counts as missed if average CPI inflation is above 6 percent, or below 2 percent, for three consecutive quarters. That is about quarterly averages, not every single reading. Then the RBI must report to the government why.
+
+The Monetary Policy Committee is set up under Section 45ZB. It has six members, and was first formed on 29 September 2016. The Governor is the chair. It meets at least four times a year, the quorum is four, and if votes tie, the Governor has a casting vote.
+
+Now the tools. The repo rate is the policy rate. It is the rate at which the RBI lends to banks against government securities. Around it is a corridor. The Standing Deposit Facility rate, or SDF, is 25 basis points below repo, and it is the floor. Since April 2022 it replaced the fixed rate reverse repo. The Marginal Standing Facility rate, or MSF, is 25 basis points above repo, and it is the ceiling. Under MSF, banks can borrow against their excess SLR holdings, and can also dip below the required SLR by up to 2 percent of their net demand and time liabilities, or NDTL. The Bank Rate is now aligned with the MSF rate.
+
+Quick example. If repo is 6.50 percent, SDF is 6.25 and MSF is 6.75. One basis point is one hundredth of a percentage point.
+
+CRR and SLR. CRR, the cash reserve ratio, is a percentage of a bank's net demand and time liabilities, or NDTL, that it keeps with the RBI. SLR, the statutory liquidity ratio, is a percentage of the bank's demand and time liabilities that it must hold in India as assets, typically government securities, cash and gold. The RBI notifies the percentage. Example: NDTL of 2,000 crore and CRR of 5 percent means 100 crore with the RBI.
+
+Part two. Budget deficits.
+
+Revenue deficit is revenue expenditure minus revenue receipts. Fiscal deficit is total expenditure minus revenue receipts and non-debt capital receipts. It is the year's borrowing need. Primary deficit is fiscal deficit minus interest payments. Effective revenue deficit is revenue deficit minus grants given to create capital assets.
+
+Worked example, in crore. Revenue receipts 10,000. Non-debt capital receipts 500. Revenue expenditure 12,000. Capital expenditure 2,500. Interest 1,800. Grants for assets 600. Revenue deficit is 2,000. Total expenditure is 14,500, so fiscal deficit is 14,500 minus 10,500, which is 4,000. Primary deficit is 4,000 minus 1,800, which is 2,200. Effective revenue deficit is 2,000 minus 600, which is 1,400.
+
+Common traps. The reverse repo is no longer the floor. SDF is. Grants to States are revenue expenditure for the Centre, even if they build schools. And recovery of loans is a capital receipt that is not debt.
+
+Now try the practice questions in the text file. They are original, not previous-year questions.
