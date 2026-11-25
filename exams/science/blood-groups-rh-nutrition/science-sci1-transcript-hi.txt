@@ -1,0 +1,13 @@
+Science and Technology, रक्त समूह, Rh factor, और भोजन व पोषण पर एक छोटा नोट। यह exam की पढ़ाई की सामग्री है, चिकित्सा या diet की सलाह नहीं, और यह previous-year paper नहीं है। यह RPSC Prelims 2024 syllabus में Science and Technology के नीचे एक बिंदु है। अपनी परीक्षा का syllabus जरूर देखें।
+
+पहले ABO प्रणाली। लोगों को लाल रक्त कोशिकाओं पर मौजूद antigens के आधार पर A, B, AB और O में बाँटा जाता है। Antibodies plasma में होती हैं, उन antigens के विरुद्ध जो उस व्यक्ति में नहीं हैं।
+
+Group A में A antigen और anti-B antibody होती है। Group B में B antigen और anti-A antibody। Group AB में दोनों antigens, और न anti-A न anti-B। Group O में न A न B antigen, और anti-A व anti-B दोनों antibodies।
+
+Exam के लिए rule of thumb, सिर्फ ABO प्रणाली देखते हुए और Rh को छोड़कर: O लाल कोशिकाओं का universal donor है, और AB लाल कोशिकाओं का universal recipient। Plasma का नियम उलटा है। AB plasma में anti-A और anti-B नहीं होते, इसलिए वह सभी ABO groups के साथ संगत है, जबकि O plasma में दोनों होते हैं। सिर्फ universal donor न कहें। साफ कहें कि लाल कोशिकाओं की बात है या plasma की। Source कहता है कि असली transfusion में अपवाद होते हैं, और यह lesson नहीं सिखाता कि Rh इसमें कैसे जुड़ता है।
+
+अब Rh factor। लाल कोशिकाओं पर Rh D antigen हो तो व्यक्ति Rh-positive है, न हो तो Rh-negative। चिंता तब है जब D से sensitized Rh-negative माँ Rh-positive शिशु को गर्भ में रखे। उसकी anti-D antibodies शिशु की लाल कोशिकाओं को नष्ट कर सकती हैं, जिसे नवजात का hemolytic disease कहते हैं। यह जोखिम की स्थिति है, पक्का नतीजा नहीं। नुकसान के लिए माँ का पहले D से sensitized होना जरूरी है। Source के अनुसार पहली गर्भावस्था में D का संपर्क आमतौर पर उसी गर्भावस्था को प्रभावित नहीं करता, पर इसका मतलब यह नहीं कि पहली गर्भावस्था पक्का सुरक्षित है, क्योंकि माँ पहले के संपर्क से पहले ही sensitized हो सकती है। रोकथाम Rh D immunoglobulin से होती है, जो anti-D antibodies से बनता है। समय और मात्रा चिकित्सकीय विषय हैं, इस lesson में नहीं। उलटा मामला, Rh-positive माँ और Rh-negative शिशु, D-incompatibility की चिंता नहीं है।
+
+अंत में पोषण, छोटे overview के रूप में। ICMR-NIN की public Dietary Guidelines for Indians booklet में लिखा है: विविध भोजन खाएँ, वयस्कों के लिए चीनी energy के पाँच प्रतिशत से कम रखें, added नमक प्रतिदिन पाँच ग्राम तक सीमित रखें, जो added नमक के लिए उसका शब्दांकन है, और iodized नमक लें, रोज कम से कम चार सौ ग्राम सब्जियाँ खाएँ, और पहले छह महीने सिर्फ स्तनपान कराएँ। यह जागरूकता के लिए policy सारांश है, किसी व्यक्ति के लिए योजना नहीं।
+
+अब दस practice प्रश्न हल करें, फिर उत्तर जाँचें।

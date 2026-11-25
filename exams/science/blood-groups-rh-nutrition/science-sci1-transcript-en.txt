@@ -1,0 +1,13 @@
+Science and Technology, blood groups, Rh factor, and a short note on food and nutrition. This is exam study material, not medical or diet advice, and it is not a previous-year paper. The topic is an item in the RPSC Prelims 2024 syllabus under Science and Technology. Check your own exam's syllabus.
+
+First, the ABO system. People are grouped A, B, AB and O by the antigens on their red blood cells. Antibodies are in the plasma, against the antigens a person lacks.
+
+Group A has A antigen and anti-B antibody. Group B has B antigen and anti-A antibody. Group AB has both antigens, and no anti-A or anti-B. Group O has no A or B antigen, and has both anti-A and anti-B.
+
+As a rule of thumb for exams, looking at the ABO system only and ignoring Rh: O is the universal red cell donor, and AB is the universal red cell recipient. Plasma is the other way round. AB plasma has no anti-A or anti-B, so it is compatible with all ABO groups, while O plasma carries both. Never say plain universal donor. Say whether you mean red cells or plasma. The source says real transfusions have exceptions, and this lesson does not teach how Rh fits in.
+
+Now the Rh factor. If red cells carry the Rh D antigen, the person is Rh-positive. If not, Rh-negative. The concern is an Rh-negative mother who has become sensitized to D, carrying an Rh-positive baby. Her anti-D antibodies can destroy the baby's red cells, called hemolytic disease of the newborn. This is a risk setting, not a certain outcome. Harm needs the mother to become sensitized to D first. The source says that exposure during a first pregnancy typically does not affect that pregnancy, but that does not make a first pregnancy guaranteed safe, because a mother can already be sensitized from earlier exposure. Prevention is Rh D immunoglobulin, made of anti-D antibodies. Timing and dosing are clinical matters and are not in this lesson. The reversed case, Rh-positive mother and Rh-negative baby, is not the D-incompatibility concern.
+
+Finally, nutrition, as a short overview. The public ICMR-NIN Dietary Guidelines for Indians booklet says: eat a variety of foods, keep sugar under five percent of energy for adults, limit added salt to five grams a day, which is its wording for added salt, and use iodized salt, eat at least four hundred grams of vegetables a day, and exclusively breastfeed for the first six months. That is a policy summary for awareness, not a plan for any person.
+
+Now try the ten practice questions, then check the answers.
