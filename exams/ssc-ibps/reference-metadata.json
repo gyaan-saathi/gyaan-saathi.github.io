@@ -1,0 +1,19 @@
+{
+  "reference": "ssc-ibps",
+  "title_en": "Exam reference: SSC CGL and IBPS PO/MT",
+  "title_hi": "परीक्षा संदर्भ: SSC CGL और IBPS PO/MT",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "status": "public-reference",
+  "separate_from_lessons": true,
+  "contains_pyq": false,
+  "audio": false,
+  "as_of": "2026-11-25",
+  "exams": [
+    "SSC CGL 2026",
+    "IBPS CRP PO/MT-XVI"
+  ],
+  "coverage_note": "Bounded notice-based exam-structure reference only; exact coverage gaps are shown on the page and in the Sources section."
+}
