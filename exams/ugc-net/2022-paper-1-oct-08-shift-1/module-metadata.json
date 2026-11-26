@@ -1,0 +1,35 @@
+{
+  "module": "ugc-net-2022-paper-1-oct-08-shift-1",
+  "exam_family": "UGC NET December 2021 & June 2022 merged cycle",
+  "paper": "Paper 1 (General Paper), key block 08 October 2022 shift 1",
+  "title": "UGC NET Paper 1, 8 Oct 2022 shift 1: Q1-50 key-matched notes",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "status": "live",
+  "contains_pyq": true,
+  "question_ids": "516-565 from one official NTA paper",
+  "coverage": {
+    "worked_out_from_paper": 21,
+    "source_checked": 6,
+    "key_reference_only": 23,
+    "dropped": 0
+  },
+  "date_label_caveat": "NTA key block reads 08.10.2022 shift 1; the paper's question descriptions read General_19_SEPT22. Difference reported as printed and not explained.",
+  "audio": {
+    "hindi": {
+      "file": "ugc-net-2022-paper1-oct08-shift1-hi.mp3",
+      "duration_seconds": 203.76,
+      "status": "final"
+    },
+    "english": {
+      "file": "ugc-net-2022-paper1-oct08-shift1-en.mp3",
+      "duration_seconds": 173.016,
+      "status": "final"
+    }
+  },
+  "sources_accessed": "2026-11-26",
+  "release_status": "live",
+  "released_on": "2026-11-26"
+}

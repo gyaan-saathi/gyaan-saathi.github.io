@@ -1,0 +1,21 @@
+UGC NET Paper 1, General Paper, 8 October 2022 key block, first shift. Short notes on questions you can work out or check yourself. Answer options are from the NTA final answer key. This is one paper, not a trend.
+
+Of the 50 questions, 21 are worked out from the paper, 6 are checked against listed sources, and 23 show the key option only. None were dropped. The key block is headed 8 October 2022, first shift. The paper's question descriptions say General 19 SEPT 22. We use the key block and do not explain the difference in label.
+
+Questions 1 to 5 share a table of six colleges, 60000 students and 24000 girls. Turn the percentages into numbers first. In College D there are 10800 students and 3360 girls, so 7440 boys, and the difference is 4080. Girls in C are 4320 and boys in E are 4800, which is 90 percent. Boys in A, B and C are 2400, 2520 and 9480, average 4800. Girls in F are 5040 against 3600 in A, so 40 percent more. Boys in F to D are 9360 to 7440, which is 39 to 31.
+
+Question 21. There are eleven odd numbers from 1 to 21. The sum of their squares is 1771. Divide by 11 and you get 161.
+
+Question 23. A pays 0.80 times 0.85, so a 32 percent discount. B pays 0.90 times 0.75, so 32.5 percent. B gives more.
+
+Question 24. Money doubles when one plus r, to the power 14, equals 2. That gives about 5.08 percent. The nearest printed option is 5 percent.
+
+Question 25. The series follows n squared plus 2. The fifth term should be 38, so 34 is the wrong term.
+
+Question 32. To get 50 in every row, the formula must always point at B1 and C1. Use absolute references on both.
+
+Question 35, from the CERT-In website. CERT-In has been operational since January 2004, so the statement that says 2014 is wrong.
+
+Question 44, from the NEP 2020 text. The policy structure is 5 plus 3 plus 3 plus 4. The statement that prints 5 plus 4 plus 4 plus 3 is incorrect, and the Preparatory Class statement is correct.
+
+Question 45. The four verticals of the Higher Education Commission of India are the national regulatory council, the general education council, the accreditation council and the grants council. The Medical Council of India is not one of them.
