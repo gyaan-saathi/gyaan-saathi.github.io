@@ -5,8 +5,8 @@
   "contains_pyq": true,
   "coverage": {
     "questions": 39,
-    "worked": 28,
-    "key_only": 11,
+    "worked": 33,
+    "key_only": 6,
     "excluded": "Q40 Tamil stem; Q41-200 not read"
   },
   "audio": {
