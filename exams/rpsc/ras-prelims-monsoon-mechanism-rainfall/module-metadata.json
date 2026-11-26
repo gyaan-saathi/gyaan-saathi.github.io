@@ -1,0 +1,31 @@
+{
+  "module": "geo2",
+  "exam_family": "RPSC RAS Prelims 2024",
+  "subject": "Geography of India",
+  "title_en": "Southwest Monsoon: mechanism and rainfall categories",
+  "title_hi": "दक्षिण-पश्चिम मानसून: क्रियाविधि और वर्षा श्रेणियाँ",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "status": "content-reviewed-v3",
+  "contains_pyq": false,
+  "coverage": "mechanism part of one 2024 syllabus bullet plus rainfall-category terms; regional rainfall distribution maps, full Geography and PYQ not covered",
+  "practice": "original, 10 MCQs, answers checked against cited IMD sources",
+  "audio": {
+    "hindi": {
+      "file": "rpsc-geo2-hi.mp3",
+      "duration_seconds": 139.464,
+      "status": "final"
+    },
+    "english": {
+      "file": "rpsc-geo2-en.mp3",
+      "duration_seconds": 140.208,
+      "status": "final"
+    }
+  },
+  "sources_accessed": "2026-11-26",
+  "expert_reviewed": false,
+  "release_status": "live",
+  "released_on": "2026-11-26"
+}
