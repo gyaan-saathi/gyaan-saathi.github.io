@@ -1,0 +1,17 @@
+{
+  "module": "Data Interpretation 1",
+  "route": "/exams/di-1/",
+  "title_en": "Data Interpretation 1: reading a table",
+  "title_hi": "Data Interpretation 1: तालिका पढ़ना",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "published": "2026-11-26",
+  "practice": "8 original MCQs on one fictional table; not previous-year questions",
+  "audio": {
+    "hindi": "di-1-hi.mp3",
+    "english": "di-1-en.mp3"
+  },
+  "source_scope": "SSC CGL 2026 notice para 13.8 Tier-I scheme; IBPS PO/MT-XVI Main pattern table; no syllabus topic-list claim"
+}

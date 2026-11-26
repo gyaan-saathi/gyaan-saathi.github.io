@@ -1,0 +1,9 @@
+Data Interpretation, module one: reading a table. This is a study lesson. All numbers are made up. As on 26 November 2026, the SSC CGL 2026 notice has quantitative aptitude in Tier one, and the IBPS PO notification has a Data Analysis and Interpretation test in Main. This lesson is about reading tables. It does not say what any paper will ask.
+
+First, read before you calculate. Check the title, the unit, and what each row and column means. A common cause of mistakes is the wrong row or the wrong unit.
+
+Here are five useful calculations for these table drills. Total: add the cells asked about. Average: total divided by the count of values you added. Percentage change: new minus old, divided by old, times one hundred. The base is always the old value. Share: part divided by total, times one hundred. Ratio: write both values and divide by the common factor.
+
+Example. A shop sold 120 in year one and 180 in year three. The change is 60, the base is 120, so the rise is 50 percent. A fall from 180 back to 120 is 60 over 180, which is 33 point 3 percent, not 50. The base changed.
+
+For speed, round decimals only at the end, as much as needed, compare answer options before long division, and do not add a whole table when two cells are enough. Now try the eight practice questions and recheck each one.
