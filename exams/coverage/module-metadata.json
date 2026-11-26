@@ -1,0 +1,10 @@
+{
+  "page": "Exam hub coverage and gaps",
+  "route": "/exams/coverage/",
+  "as_on": "2026-11-26",
+  "pyq_pages": 6,
+  "paper_sets": 5,
+  "original_lessons": 14,
+  "question_vs_solution_coverage": "CSAT spans Q1-80 but worked-solution coverage is partial; selected-question sets are separately labelled.",
+  "railway": "Original general lessons available; railway exam-pattern details pending; SSC/IBPS page is not a railway pattern reference."
+}
