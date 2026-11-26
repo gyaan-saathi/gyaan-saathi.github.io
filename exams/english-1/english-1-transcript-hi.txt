@@ -1,0 +1,19 @@
+English grammar की बुनियाद: subject-verb agreement और a बनाम an। यह मौलिक पढ़ाई की सामग्री है, previous-year paper नहीं। SSC CGL 2026 Notice के para 13.10.4 के अनुसार English की परीक्षा में सही English समझने की क्षमता, बुनियादी comprehension और writing ability जाँची जाती है। उसमें grammar के topics सूचीबद्ध नहीं हैं, इसलिए ये topics हमारा अपना mapping हैं। नियम Purdue OWL writing guide से हैं, जो एक अमेरिकी विश्वविद्यालय की guide है, परीक्षा बोर्ड नहीं।
+
+Verb की संख्या subject की संख्या से मिलनी चाहिए।
+
+एक। and से जुड़े अलग-अलग subjects के साथ आम तौर पर plural verb। यह सार्वभौमिक नियम नहीं है। Ravi and his cousins are at the fair.
+दो। or से जुड़े singular nouns के साथ singular verb। The pen or the pencil is on the table.
+तीन। एक singular और एक plural or से जुड़े हों तो verb पास वाले noun के अनुसार। The boy or his friends go to school every day. His friends or the boy goes to school every day.
+चार। Doesn't third-person singular subject के साथ, जैसे he, she या it। Don't plural subjects के साथ, और I और you के साथ भी।
+पाँच। Subject और verb के बीच का phrase verb नहीं बदलता। One of the boxes is open.
+छह। Each, everyone, someone, nobody singular हैं। Each of the students is present today.
+सात। News और mathematics के साथ singular verb। The news is on at six.
+आठ। Scissors और trousers के साथ plural verb। These scissors are sharp.
+नौ। सरल there is या there are वाक्यों में verb उस noun के अनुसार आता है जो बाद में आता है। There are many questions.
+दस। Team और family जैसे collective nouns के साथ इस अमेरिकी guide में singular verb। Oxford के अनुसार British English में singular या plural, दोनों verb आ सकते हैं। इसलिए यह एक सार्वभौमिक नियम नहीं है, और इस lesson में इस पर अभ्यास प्रश्न नहीं है।
+साथ ही, with, together with, including और as well as subject की संख्या नहीं बदलते।
+
+अब a बनाम an। चुनाव ध्वनि पर है, वर्तनी पर नहीं। Vowel ध्वनि के साथ an, consonant ध्वनि के साथ a। इसलिए an honest mistake, क्योंकि h silent है। पर a union और a unicorn, क्योंकि ये you की ध्वनि से शुरू होते हैं।
+
+अब दस practice प्रश्न हल करें, फिर उत्तर जाँचें।

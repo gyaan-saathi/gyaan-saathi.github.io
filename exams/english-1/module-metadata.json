@@ -1,0 +1,31 @@
+{
+  "module": "eng1",
+  "exam_family": "SSC CGL 2026",
+  "subject": "English Comprehension",
+  "title_en": "Subject-verb agreement and a versus an",
+  "title_hi": "Subject-Verb Agreement और A बनाम An",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "status": "content-reviewed-v3",
+  "contains_pyq": false,
+  "coverage": "own mapping to SSC CGL 2026 Notice para 13.10.4 correct English; not a named SSC grammar list; not full English",
+  "practice": "original, 10 MCQs, answers checked",
+  "audio": {
+    "hindi": {
+      "file": "english-1-hi.mp3",
+      "duration_seconds": 180.888,
+      "status": "final"
+    },
+    "english": {
+      "file": "english-1-en.mp3",
+      "duration_seconds": 183.984,
+      "status": "final"
+    }
+  },
+  "sources_accessed": "2026-11-25",
+  "expert_reviewed": false,
+  "release_status": "live",
+  "released_on": "2026-11-26"
+}
