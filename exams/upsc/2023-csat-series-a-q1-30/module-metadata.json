@@ -1,0 +1,29 @@
+{
+  "module": "upsc-csp-2023-csat-series-a-q1-30",
+  "exam_family": "UPSC Civil Services Preliminary Examination 2023",
+  "paper": "General Studies Paper II (CSAT), Series A",
+  "title": "UPSC CSP 2023 CSAT Series A: Q1-30",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "status": "content-reviewed",
+  "contains_pyq": true,
+  "coverage": "30 of 80 questions; official-key reference and study notes, not a trend analysis",
+  "audio": {
+    "hindi": {
+      "file": "upsc-2023-csat-a-hi.mp3",
+      "duration_seconds": 83.496,
+      "status": "final"
+    },
+    "english": {
+      "file": "upsc-2023-csat-a-en.mp3",
+      "duration_seconds": 71.904,
+      "status": "final"
+    }
+  },
+  "key_provenance": "Internet Archive copy of UPSC final key, not live UPSC hosting",
+  "sources_accessed": "2026-11-26",
+  "release_status": "live",
+  "released_on": "2026-11-26"
+}

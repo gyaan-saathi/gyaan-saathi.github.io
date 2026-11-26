@@ -1,0 +1,9 @@
+UPSC Civil Services Prelims 2023, CSAT paper, Series A, questions one to thirty. These are study notes, not UPSC's. The answer key is UPSC's. This covers the first thirty of eighty questions only.
+
+Questions one to three, eleven to thirteen and twenty-one to twenty-three are passage questions. For these, find what the passage actually says, and drop options that add new ideas. Questions four to ten, fourteen to twenty and twenty-four to thirty are numbers and logic.
+
+Patterns worth practising. Remainders: reduce step by step. Unit digits: use the cycle of the last digit. Seven x plus ninety-six divisible by x: x must divide ninety-six, so twelve values. Digit puzzles: start from the units column and track the carry. Counting triangles: choose three of six points, then remove any three that lie on one line.
+
+The answer key used is UPSC's final key for Series A, read from an archived copy of the UPSC file, because the original link no longer serves it.
+
+Try each question yourself before reading the note.
