@@ -1,0 +1,13 @@
+Reasoning, blood relations. This is a short study note. It is not official, and it is not a previous year paper. The S S C C G L 2026 notice lists relationship concepts under reasoning but does not name blood relations, so this link is our own mapping.
+
+First, the conventions. Brothers and sisters are full siblings with the same parents, unless stated. Use a gender only when it is stated. If the answer depends on a gender that is not given, the answer is cannot be determined.
+
+Method: give each person a code, keep gender unknown unless it is stated, and draw parents above, children below.
+
+Traps to remember. Only son means no other son. Son of my mother is me, if I am male, or my brother, so check for the words other than me. Child, sibling and cousin carry no gender. Mother's brother is a maternal uncle, and his son is a male cousin.
+
+Example. A man points to a woman and says she is the daughter of his father's only son. He is male, so the only son of his father is the man himself, and she is his daughter.
+
+Another. A is the father of B. B is the sister of C. C is the mother of D. A is C's father, so A is D's maternal grandfather.
+
+Now try the ten practice questions.

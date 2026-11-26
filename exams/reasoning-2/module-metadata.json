@@ -1,0 +1,31 @@
+{
+  "module": "reas2",
+  "exam_family": "SSC CGL 2026",
+  "subject": "General Intelligence and Reasoning",
+  "title_en": "Blood Relations",
+  "title_hi": "रक्त संबंध",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "status": "content-reviewed-v2",
+  "contains_pyq": false,
+  "coverage": "one reasoning topic: family-relation puzzles; full Reasoning syllabus and PYQ analysis not covered",
+  "practice": "original, 10 MCQs; SSC relationship-concepts mapping is our own, not a named blood-relations syllabus topic",
+  "audio": {
+    "hindi": {
+      "file": "reasoning-2-hi.mp3",
+      "duration_seconds": 94.968,
+      "status": "final"
+    },
+    "english": {
+      "file": "reasoning-2-en.mp3",
+      "duration_seconds": 92.064,
+      "status": "final"
+    }
+  },
+  "sources_accessed": "2026-11-26",
+  "expert_reviewed": false,
+  "release_status": "live",
+  "released_on": "2026-11-26"
+}
