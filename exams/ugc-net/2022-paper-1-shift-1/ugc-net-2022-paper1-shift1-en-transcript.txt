@@ -1,0 +1,17 @@
+UGC NET Paper 1, General Paper, 11 October 2022, first shift. Short notes on the questions you can work out yourself. The answer options are from the NTA final answer key. This is one paper, not a trend.
+
+Of the 50 questions, 17 are worked out from the paper, 4 are checked against listed sources, 28 show the key option only, and one was dropped by NTA. The paper's question codes say 15 October 2022, but the NTA key block for these question IDs is headed 11 October 2022, first shift. We use the key block and do not explain the difference in label.
+
+The data table, questions 1 to 5. Add each row. Science 900, Art 850, Engineering 400, Medical 350. That is 2500 admitted out of 3000 seats. So the highest stream is Science. Vacant seats are 500 out of 3000, which is 16.67 percent. Science to Engineering is 900 to 400, which is 9 to 4. Medical is 350 out of 2500, which is 14 percent. Art per college is 850 divided by 4, exactly 212.5. The nearest printed option, about 212, is the key option.
+
+Question 21, number code. 74 plus 61 is 135, so 68 plus 93 is 161.
+
+Question 22, the slow clock. From 5 in the morning to 10 at night on the fourth day, the clock moved 89 hours. It loses 16 minutes in 24 hours, so 89 clock hours are 90 true hours. Add 90 hours to 5 in the morning and you reach 11 at night.
+
+Question 24. 15 squared is 225. 6 to the power 4 is 1296. 2 to the power 7 is 128. 3 to the power 5 is 243. The biggest is 6 to the power 4.
+
+Question 25. The square has area 4. A circle with area 4 has radius 1.128, so the diameter is about 2.257 metres.
+
+Question 29. If P then Q. Not P. So not Q. That is denying the antecedent.
+
+Question 19 was dropped by NTA.
