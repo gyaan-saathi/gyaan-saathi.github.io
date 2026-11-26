@@ -1,0 +1,17 @@
+{
+  "module": "TNPSC Group IV 2025 General English Q1-39",
+  "route": "/exams/tnpsc/2025-group-iv-general-english-q1-39/",
+  "exam": "TNPSC CCSE-IV Group IV Services, 12.07.2025, subject 004",
+  "contains_pyq": true,
+  "coverage": {
+    "questions": 39,
+    "worked": 28,
+    "key_only": 11,
+    "excluded": "Q40 Tamil stem; Q41-200 not read"
+  },
+  "audio": {
+    "hindi": "tnpsc-group-iv-2025-ge-q1-39-hi.mp3",
+    "english": "tnpsc-group-iv-2025-ge-q1-39-en.mp3"
+  },
+  "mapping_caveat": "Specimen booklet CCSEIVGE/2025 matched to final key CCSE4GE/2025 only through exam, subject, date and parallel code pattern; no formal TNPSC series-mapping claim."
+}
