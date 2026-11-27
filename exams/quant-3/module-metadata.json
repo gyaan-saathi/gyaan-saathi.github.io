@@ -4,11 +4,14 @@
   "subject": "Quantitative Aptitude",
   "title_en": "Time and work, time and distance",
   "title_hi": "समय और कार्य, समय और दूरी",
-  "languages": ["en", "hi"],
-  "status": "content-checked-no-audio",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "status": "live-hindi-audio-only",
   "contains_pyq": false,
   "practice": "original, 10 MCQs, answers verified by calculation",
-  "audio": "none yet",
+  "audio": "Hindi only (quant-3-hi.mp3, about 6:04, transcript quant-3-hi-transcript.txt); no English audio yet",
   "syllabus_ground": {
     "topics": "SSC CGL 2026 notice para 13.10.3 (Time and distance; Time & Work)",
     "level": "SSC CGL 2026 notice para 13.10.5"
