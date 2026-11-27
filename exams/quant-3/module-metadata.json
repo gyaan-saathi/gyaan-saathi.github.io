@@ -1,0 +1,21 @@
+{
+  "module": "qa3",
+  "exam_family": "SSC CGL Tier-I Part C and bank quant sections",
+  "subject": "Quantitative Aptitude",
+  "title_en": "Time and work, time and distance",
+  "title_hi": "समय और कार्य, समय और दूरी",
+  "languages": ["en", "hi"],
+  "status": "content-checked-no-audio",
+  "contains_pyq": false,
+  "practice": "original, 10 MCQs, answers verified by calculation",
+  "audio": "none yet",
+  "syllabus_ground": {
+    "topics": "SSC CGL 2026 notice para 13.10.3 (Time and distance; Time & Work)",
+    "level": "SSC CGL 2026 notice para 13.10.5"
+  },
+  "sources_accessed": "2026-11-27",
+  "expert_reviewed": false,
+  "release_status": "live",
+  "prepared_on": "2026-11-27",
+  "released_on": "2026-11-27"
+}
