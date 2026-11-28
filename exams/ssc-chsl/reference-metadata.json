@@ -1,0 +1,18 @@
+{
+  "reference": "ssc-chsl",
+  "title_en": "Exam reference: SSC CHSL 2026",
+  "title_hi": "परीक्षा संदर्भ: SSC CHSL 2026",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "status": "public-reference",
+  "separate_from_lessons": true,
+  "contains_pyq": false,
+  "audio": false,
+  "as_of": "2026-11-28",
+  "exams": [
+    "SSC CHSL 2026"
+  ],
+  "coverage_note": "Bounded notice-based exam-structure reference from one official notice (paras 13.8 to 13.11); no dates, no PYQ, no audio."
+}
